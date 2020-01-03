@@ -1,8 +1,8 @@
-# 查询NAT网关列表<a name="ZH-CN_TOPIC_0201533659"></a>
+# 查询NAT网关列表<a name="nat_api_0002"></a>
 
 ## 功能介绍<a name="section21650537"></a>
 
-查询NAT网关列表。
+查询NAT网关列表。如无特殊说明，匹配规则为精确匹配。
 
 ## URI<a name="section60637113"></a>
 
@@ -78,7 +78,7 @@ GET /v2.0/nat\_gateways
 </td>
 <td class="cellrowborder" valign="top" width="53.855385538553854%" headers="mcps1.2.5.1.4 "><p id="p198081612114114"><a name="p198081612114114"></a><a name="p198081612114114"></a>NAT网关的规格。</p>
 <p id="p138081012184115"><a name="p138081012184115"></a><a name="p138081012184115"></a>取值为：</p>
-<a name="ul108080122414"></a><a name="ul108080122414"></a><ul id="ul108080122414"><li>“1”：小型，SNAT最大连接数<span>10000</span></li><li>“2”：中型，SNAT最大连接数<span>50000</span></li><li>“3”：大型，SNAT最大连接数<span>200000</span></li><li>“4”：超大型，SNAT最大连接数<span>1000000</span></li></ul>
+<a name="ul108080122414"></a><a name="ul108080122414"></a><ul id="ul108080122414"><li>“1”：小型，SNAT最大连接数10000</li><li>“2”：中型，SNAT最大连接数50000</li><li>“3”：大型，SNAT最大连接数200000</li><li>“4”：超大型，SNAT最大连接数1000000</li></ul>
 </td>
 </tr>
 <tr id="row178085121417"><td class="cellrowborder" valign="top" width="21.35213521352135%" headers="mcps1.2.5.1.1 "><p id="p7808181224114"><a name="p7808181224114"></a><a name="p7808181224114"></a>router_id</p>
@@ -205,7 +205,7 @@ GET /v2.0/nat\_gateways
 </td>
 <td class="cellrowborder" valign="top" width="52.05%" headers="mcps1.2.4.1.3 "><p id="p1329410119429"><a name="p1329410119429"></a><a name="p1329410119429"></a>NAT网关的规格。</p>
 <p id="p1429413113429"><a name="p1429413113429"></a><a name="p1429413113429"></a>取值为：</p>
-<a name="ul3294191111427"></a><a name="ul3294191111427"></a><ul id="ul3294191111427"><li>“1”：小型，SNAT最大连接数<span>10000</span></li><li>“2”：中型，SNAT最大连接数<span>50000</span></li><li>“3”：大型，SNAT最大连接数<span>200000</span></li><li>“4”：超大型，SNAT最大连接数<span>1000000</span></li></ul>
+<a name="ul3294191111427"></a><a name="ul3294191111427"></a><ul id="ul3294191111427"><li>“1”：小型，SNAT最大连接数10000</li><li>“2”：中型，SNAT最大连接数50000</li><li>“3”：大型，SNAT最大连接数200000</li><li>“4”：超大型，SNAT最大连接数1000000</li></ul>
 </td>
 </tr>
 <tr id="row1329416115424"><td class="cellrowborder" valign="top" width="20.14%" headers="mcps1.2.4.1.1 "><p id="p629416117428"><a name="p629416117428"></a><a name="p629416117428"></a>router_id</p>
