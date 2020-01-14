@@ -1,4 +1,4 @@
-# 更新NAT网关<a name="ZH-CN_TOPIC_0201533681"></a>
+# 更新NAT网关<a name="nat_api_0003"></a>
 
 ## 功能介绍<a name="section53650918"></a>
 
@@ -106,7 +106,7 @@ PUT /v2.0/nat\_gateways/\{nat\_gateway\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="49.5%" headers="mcps1.2.5.1.4 "><p id="p142611837184914"><a name="p142611837184914"></a><a name="p142611837184914"></a>NAT网关的规格。</p>
 <p id="p1126123713499"><a name="p1126123713499"></a><a name="p1126123713499"></a>取值为：</p>
-<a name="ul1526193711496"></a><a name="ul1526193711496"></a><ul id="ul1526193711496"><li>“1”：小型，SNAT最大连接数<span>10000</span></li><li>“2”：中型，SNAT最大连接数<span>50000</span></li><li>“3”：大型，SNAT最大连接数<span>200000</span></li><li>“4”：超大型，SNAT最大连接数<span>1000000</span></li></ul>
+<a name="ul1526193711496"></a><a name="ul1526193711496"></a><ul id="ul1526193711496"><li>“1”：小型，SNAT最大连接数10000</li><li>“2”：中型，SNAT最大连接数50000</li><li>“3”：大型，SNAT最大连接数200000</li><li>“4”：超大型，SNAT最大连接数1000000</li></ul>
 </td>
 </tr>
 </tbody>
@@ -183,7 +183,7 @@ PUT /v2.0/nat\_gateways/\{nat\_gateway\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="58.589999999999996%" headers="mcps1.2.4.1.3 "><p id="p2067064195110"><a name="p2067064195110"></a><a name="p2067064195110"></a>NAT网关的规格。</p>
 <p id="p76708418513"><a name="p76708418513"></a><a name="p76708418513"></a>取值为：</p>
-<a name="ul1167010455119"></a><a name="ul1167010455119"></a><ul id="ul1167010455119"><li>“1”：小型，SNAT最大连接数<span>10000</span></li><li>“2”：中型，SNAT最大连接数<span>50000</span></li><li>“3”：大型，SNAT最大连接数<span>200000</span></li><li>“4”：超大型，SNAT最大连接数<span>1000000</span></li></ul>
+<a name="ul1167010455119"></a><a name="ul1167010455119"></a><ul id="ul1167010455119"><li>“1”：小型，SNAT最大连接数10000</li><li>“2”：中型，SNAT最大连接数50000</li><li>“3”：大型，SNAT最大连接数200000</li><li>“4”：超大型，SNAT最大连接数1000000</li></ul>
 </td>
 </tr>
 <tr id="row967013418512"><td class="cellrowborder" valign="top" width="23.23%" headers="mcps1.2.4.1.1 "><p id="p18670241513"><a name="p18670241513"></a><a name="p18670241513"></a>router_id</p>
@@ -219,7 +219,7 @@ PUT /v2.0/nat\_gateways/\{nat\_gateway\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="18.18%" headers="mcps1.2.4.1.2 "><p id="p2670141515"><a name="p2670141515"></a><a name="p2670141515"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="58.589999999999996%" headers="mcps1.2.4.1.3 "><a name="ul6670154185110"></a><a name="ul6670154185110"></a><ul id="ul6670154185110"><li>NAT网关的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</li></ul>
+<td class="cellrowborder" valign="top" width="58.589999999999996%" headers="mcps1.2.4.1.3 "><p id="p1914253805918"><a name="p1914253805918"></a><a name="p1914253805918"></a>NAT网关的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</p>
 </td>
 </tr>
 </tbody>

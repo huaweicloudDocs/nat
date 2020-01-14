@@ -1,4 +1,4 @@
-# 删除SNAT规则<a name="ZH-CN_TOPIC_0201533692"></a>
+# 删除SNAT规则<a name="nat_api_0009"></a>
 
 ## 功能介绍<a name="section20675657"></a>
 

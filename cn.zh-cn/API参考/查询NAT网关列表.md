@@ -124,7 +124,7 @@ GET /v2.0/nat\_gateways
 </td>
 <td class="cellrowborder" valign="top" width="16.711671167116712%" headers="mcps1.2.5.1.3 "><p id="p1180818124411"><a name="p1180818124411"></a><a name="p1180818124411"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="53.855385538553854%" headers="mcps1.2.5.1.4 "><a name="ul88088126418"></a><a name="ul88088126418"></a><ul id="ul88088126418"><li>NAT网关的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</li></ul>
+<td class="cellrowborder" valign="top" width="53.855385538553854%" headers="mcps1.2.5.1.4 "><p id="p182375159231"><a name="p182375159231"></a><a name="p182375159231"></a>NAT网关的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</p>
 </td>
 </tr>
 </tbody>
@@ -241,7 +241,7 @@ GET /v2.0/nat\_gateways
 </td>
 <td class="cellrowborder" valign="top" width="27.810000000000002%" headers="mcps1.2.4.1.2 "><p id="p0294151110422"><a name="p0294151110422"></a><a name="p0294151110422"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="52.05%" headers="mcps1.2.4.1.3 "><a name="ul1029411184215"></a><a name="ul1029411184215"></a><ul id="ul1029411184215"><li>NAT网关的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</li></ul>
+<td class="cellrowborder" valign="top" width="52.05%" headers="mcps1.2.4.1.3 "><p id="p14616181615910"><a name="p14616181615910"></a><a name="p14616181615910"></a>NAT网关的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</p>
 </td>
 </tr>
 </tbody>

@@ -1,4 +1,4 @@
-# 查询指定的NAT网关详情<a name="ZH-CN_TOPIC_0201533629"></a>
+# 查询指定的NAT网关详情<a name="zh-cn_topic_0130808154"></a>
 
 ## 功能介绍<a name="section45827181"></a>
 
@@ -108,7 +108,7 @@ GET /v2.0/nat\_gateways/\{nat\_gateway\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="58.589999999999996%" headers="mcps1.2.4.1.3 "><p id="p1023385084218"><a name="p1023385084218"></a><a name="p1023385084218"></a>NAT网关的规格。</p>
 <p id="p1223319508422"><a name="p1223319508422"></a><a name="p1223319508422"></a>取值为：</p>
-<a name="ul132334508424"></a><a name="ul132334508424"></a><ul id="ul132334508424"><li>“1”：小型，SNAT最大连接数<span>10000</span></li><li>“2”：中型，SNAT最大连接数<span>50000</span></li><li>“3”：大型，SNAT最大连接数<span>200000</span></li><li>“4”：超大型，SNAT最大连接数<span>1000000</span></li></ul>
+<a name="ul132334508424"></a><a name="ul132334508424"></a><ul id="ul132334508424"><li>“1”：小型，SNAT最大连接数10000</li><li>“2”：中型，SNAT最大连接数50000</li><li>“3”：大型，SNAT最大连接数200000</li><li>“4”：超大型，SNAT最大连接数1000000</li></ul>
 </td>
 </tr>
 <tr id="row42331050144212"><td class="cellrowborder" valign="top" width="23.23%" headers="mcps1.2.4.1.1 "><p id="p1723325015428"><a name="p1723325015428"></a><a name="p1723325015428"></a>router_id</p>
@@ -144,7 +144,7 @@ GET /v2.0/nat\_gateways/\{nat\_gateway\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="18.18%" headers="mcps1.2.4.1.2 "><p id="p423312509427"><a name="p423312509427"></a><a name="p423312509427"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="58.589999999999996%" headers="mcps1.2.4.1.3 "><a name="ul16233750144212"></a><a name="ul16233750144212"></a><ul id="ul16233750144212"><li>NAT网关的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</li></ul>
+<td class="cellrowborder" valign="top" width="58.589999999999996%" headers="mcps1.2.4.1.3 "><p id="p16351227165916"><a name="p16351227165916"></a><a name="p16351227165916"></a>NAT网关的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</p>
 </td>
 </tr>
 </tbody>

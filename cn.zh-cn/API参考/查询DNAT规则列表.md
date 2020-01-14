@@ -1,4 +1,4 @@
-# 查询DNAT规则列表<a name="ZH-CN_TOPIC_0201533691"></a>
+# 查询DNAT规则列表<a name="nat_api_0012"></a>
 
 ## 功能介绍<a name="section28610428164132"></a>
 
@@ -119,7 +119,7 @@ GET /v2.0/dnat\_rules
 </td>
 <td class="cellrowborder" valign="top" width="19.189999999999998%" headers="mcps1.2.4.1.2 "><p id="p17521624103417"><a name="p17521624103417"></a><a name="p17521624103417"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="57.58%" headers="mcps1.2.4.1.3 "><a name="ul185262415341"></a><a name="ul185262415341"></a><ul id="ul185262415341"><li>DNAT规则的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</li></ul>
+<td class="cellrowborder" valign="top" width="57.58%" headers="mcps1.2.4.1.3 "><p id="p055611361601"><a name="p055611361601"></a><a name="p055611361601"></a>DNAT规则的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</p>
 </td>
 </tr>
 </tbody>
@@ -255,7 +255,7 @@ GET /v2.0/dnat\_rules
 </td>
 <td class="cellrowborder" valign="top" width="28.072807280728075%" headers="mcps1.2.4.1.2 "><p id="p4529368"><a name="p4529368"></a><a name="p4529368"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.085108510851086%" headers="mcps1.2.4.1.3 "><a name="ul1151898616"></a><a name="ul1151898616"></a><ul id="ul1151898616"><li>DNAT规则的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</li></ul>
+<td class="cellrowborder" valign="top" width="51.085108510851086%" headers="mcps1.2.4.1.3 "><p id="p74507428015"><a name="p74507428015"></a><a name="p74507428015"></a>DNAT规则的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</p>
 </td>
 </tr>
 </tbody>

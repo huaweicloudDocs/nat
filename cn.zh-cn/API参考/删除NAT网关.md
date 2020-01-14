@@ -1,4 +1,4 @@
-# 删除NAT网关<a name="ZH-CN_TOPIC_0201533671"></a>
+# 删除NAT网关<a name="nat_api_0004"></a>
 
 ## 功能介绍<a name="section23460301"></a>
 

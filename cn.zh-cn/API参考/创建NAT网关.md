@@ -1,4 +1,4 @@
-# 创建NAT网关<a name="ZH-CN_TOPIC_0201533507"></a>
+# 创建NAT网关<a name="zh-cn_topic_0130808161"></a>
 
 ## 功能介绍<a name="section19627306"></a>
 
@@ -86,7 +86,7 @@ POST /v2.0/nat\_gateways
 </td>
 <td class="cellrowborder" valign="top" width="50.06%" headers="mcps1.2.5.1.4 "><p id="p251962719307"><a name="p251962719307"></a><a name="p251962719307"></a>NAT网关的规格。</p>
 <p id="p15191327183013"><a name="p15191327183013"></a><a name="p15191327183013"></a>取值为：</p>
-<a name="ul151911279307"></a><a name="ul151911279307"></a><ul id="ul151911279307"><li>“1”：小型，SNAT最大连接数<span>10000</span></li><li>“2”：中型，SNAT最大连接数<span>50000</span></li><li>“3”：大型，SNAT最大连接数<span>200000</span></li><li>“4”：超大型，SNAT最大连接数<span>1000000</span></li></ul>
+<a name="ul151911279307"></a><a name="ul151911279307"></a><ul id="ul151911279307"><li>“1”：小型，SNAT最大连接数10000</li><li>“2”：中型，SNAT最大连接数50000</li><li>“3”：大型，SNAT最大连接数200000</li><li>“4”：超大型，SNAT最大连接数1000000</li></ul>
 </td>
 </tr>
 <tr id="row35192277306"><td class="cellrowborder" valign="top" width="22.939999999999998%" headers="mcps1.2.5.1.1 "><p id="p55191827103018"><a name="p55191827103018"></a><a name="p55191827103018"></a>router_id</p>
@@ -181,7 +181,7 @@ POST /v2.0/nat\_gateways
 </td>
 <td class="cellrowborder" valign="top" width="58.589999999999996%" headers="mcps1.2.4.1.3 "><p id="p1216915518351"><a name="p1216915518351"></a><a name="p1216915518351"></a>NAT网关的规格。</p>
 <p id="p19169115553517"><a name="p19169115553517"></a><a name="p19169115553517"></a>取值为：</p>
-<a name="ul1216911558358"></a><a name="ul1216911558358"></a><ul id="ul1216911558358"><li>“1”：小型，SNAT最大连接数<span>10000</span></li><li>“2”：中型，SNAT最大连接数<span>50000</span></li><li>“3”：大型，SNAT最大连接数<span>200000</span></li><li>“4”：超大型，SNAT最大连接数<span>1000000</span></li></ul>
+<a name="ul1216911558358"></a><a name="ul1216911558358"></a><ul id="ul1216911558358"><li>“1”：小型，SNAT最大连接数10000</li><li>“2”：中型，SNAT最大连接数50000</li><li>“3”：大型，SNAT最大连接数200000</li><li>“4”：超大型，SNAT最大连接数1000000</li></ul>
 </td>
 </tr>
 <tr id="row1716985523510"><td class="cellrowborder" valign="top" width="23.23%" headers="mcps1.2.4.1.1 "><p id="p1016965563511"><a name="p1016965563511"></a><a name="p1016965563511"></a>router_id</p>
@@ -217,7 +217,7 @@ POST /v2.0/nat\_gateways
 </td>
 <td class="cellrowborder" valign="top" width="18.18%" headers="mcps1.2.4.1.2 "><p id="p101859557352"><a name="p101859557352"></a><a name="p101859557352"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="58.589999999999996%" headers="mcps1.2.4.1.3 "><a name="ul161851355133518"></a><a name="ul161851355133518"></a><ul id="ul161851355133518"><li>NAT网关的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</li></ul>
+<td class="cellrowborder" valign="top" width="58.589999999999996%" headers="mcps1.2.4.1.3 "><p id="p135382155910"><a name="p135382155910"></a><a name="p135382155910"></a>NAT网关的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</p>
 </td>
 </tr>
 </tbody>

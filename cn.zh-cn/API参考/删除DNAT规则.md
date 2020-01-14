@@ -1,4 +1,4 @@
-# 删除DNAT规则<a name="ZH-CN_TOPIC_0201533686"></a>
+# 删除DNAT规则<a name="nat_api_0014"></a>
 
 ## 功能介绍<a name="section133765317113"></a>
 

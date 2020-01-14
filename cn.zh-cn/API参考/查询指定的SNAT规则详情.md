@@ -1,4 +1,4 @@
-# 查询指定的SNAT规则详情<a name="ZH-CN_TOPIC_0201533641"></a>
+# 查询指定的SNAT规则详情<a name="nat_api_0008"></a>
 
 ## 功能介绍<a name="section59567946"></a>
 
@@ -150,7 +150,7 @@ GET /v2.0/snat\_rules/\{snat\_rule\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="28.25282528252825%" headers="mcps1.2.4.1.2 "><p id="p1291734045514"><a name="p1291734045514"></a><a name="p1291734045514"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.085108510851086%" headers="mcps1.2.4.1.3 "><a name="ul1691774045514"></a><a name="ul1691774045514"></a><ul id="ul1691774045514"><li>SNAT规则的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</li></ul>
+<td class="cellrowborder" valign="top" width="51.085108510851086%" headers="mcps1.2.4.1.3 "><p id="p1356911211605"><a name="p1356911211605"></a><a name="p1356911211605"></a>SNAT规则的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</p>
 </td>
 </tr>
 </tbody>

@@ -1,4 +1,4 @@
-# 创建SNAT规则<a name="ZH-CN_TOPIC_0201533683"></a>
+# 创建SNAT规则<a name="nat_api_0006"></a>
 
 ## 功能介绍<a name="section45647471"></a>
 
@@ -221,7 +221,7 @@ POST /v2.0/snat\_rules
 </td>
 <td class="cellrowborder" valign="top" width="22.37%" headers="mcps1.2.4.1.2 "><p id="p32669214104"><a name="p32669214104"></a><a name="p32669214104"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="57.58%" headers="mcps1.2.4.1.3 "><a name="ul1726613220108"></a><a name="ul1726613220108"></a><ul id="ul1726613220108"><li>SNAT规则的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</li></ul>
+<td class="cellrowborder" valign="top" width="57.58%" headers="mcps1.2.4.1.3 "><p id="p776395025914"><a name="p776395025914"></a><a name="p776395025914"></a>SNAT规则的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</p>
 </td>
 </tr>
 </tbody>

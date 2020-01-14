@@ -1,4 +1,4 @@
-# 查询SNAT规则列表<a name="ZH-CN_TOPIC_0201533637"></a>
+# 查询SNAT规则列表<a name="nat_api_0007"></a>
 
 ## 功能介绍<a name="section3132024"></a>
 
@@ -95,7 +95,7 @@ GET /v2.0/snat\_rules
 </td>
 <td class="cellrowborder" valign="top" width="17.09%" headers="mcps1.2.5.1.3 "><p id="p91505152437"><a name="p91505152437"></a><a name="p91505152437"></a>String(4096)</p>
 </td>
-<td class="cellrowborder" valign="top" width="49.89%" headers="mcps1.2.5.1.4 "><a name="ul51501150435"></a><a name="ul51501150435"></a><ul id="ul51501150435"><li>功能说明：弹性公网IP的id。</li></ul>
+<td class="cellrowborder" valign="top" width="49.89%" headers="mcps1.2.5.1.4 "><p id="p138311037012"><a name="p138311037012"></a><a name="p138311037012"></a>功能说明：弹性公网IP的id。</p>
 </td>
 </tr>
 <tr id="row1315061516437"><td class="cellrowborder" valign="top" width="21.34%" headers="mcps1.2.5.1.1 "><p id="p151501215144310"><a name="p151501215144310"></a><a name="p151501215144310"></a>floating_ip_address</p>
@@ -104,7 +104,7 @@ GET /v2.0/snat\_rules
 </td>
 <td class="cellrowborder" valign="top" width="17.09%" headers="mcps1.2.5.1.3 "><p id="p8150101514314"><a name="p8150101514314"></a><a name="p8150101514314"></a>String(1024)</p>
 </td>
-<td class="cellrowborder" valign="top" width="49.89%" headers="mcps1.2.5.1.4 "><a name="ul1715061514439"></a><a name="ul1715061514439"></a><ul id="ul1715061514439"><li>功能说明：弹性公网IP。</li></ul>
+<td class="cellrowborder" valign="top" width="49.89%" headers="mcps1.2.5.1.4 "><p id="p1534335207"><a name="p1534335207"></a><a name="p1534335207"></a>功能说明：弹性公网IP。</p>
 </td>
 </tr>
 <tr id="row3150131544312"><td class="cellrowborder" valign="top" width="21.34%" headers="mcps1.2.5.1.1 "><p id="p181509154430"><a name="p181509154430"></a><a name="p181509154430"></a>status</p>
@@ -132,7 +132,7 @@ GET /v2.0/snat\_rules
 </td>
 <td class="cellrowborder" valign="top" width="17.09%" headers="mcps1.2.5.1.3 "><p id="p11150215184311"><a name="p11150215184311"></a><a name="p11150215184311"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="49.89%" headers="mcps1.2.5.1.4 "><a name="ul91501315174313"></a><a name="ul91501315174313"></a><ul id="ul91501315174313"><li>SNAT规则的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</li></ul>
+<td class="cellrowborder" valign="top" width="49.89%" headers="mcps1.2.5.1.4 "><p id="p39521571301"><a name="p39521571301"></a><a name="p39521571301"></a>SNAT规则的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</p>
 </td>
 </tr>
 </tbody>
@@ -255,7 +255,7 @@ GET /v2.0/snat\_rules
 </td>
 <td class="cellrowborder" valign="top" width="28.162816281628167%" headers="mcps1.2.4.1.2 "><p id="p1238211390533"><a name="p1238211390533"></a><a name="p1238211390533"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50.91509150915091%" headers="mcps1.2.4.1.3 "><a name="ul133821139165318"></a><a name="ul133821139165318"></a><ul id="ul133821139165318"><li>SNAT规则的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</li></ul>
+<td class="cellrowborder" valign="top" width="50.91509150915091%" headers="mcps1.2.4.1.3 "><p id="p1748651410013"><a name="p1748651410013"></a><a name="p1748651410013"></a>SNAT规则的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</p>
 </td>
 </tr>
 </tbody>
