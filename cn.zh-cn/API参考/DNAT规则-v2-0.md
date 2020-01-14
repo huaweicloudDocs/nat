@@ -1,4 +1,4 @@
-# DNAT规则 v2.0<a name="ZH-CN_TOPIC_0201533632"></a>
+# DNAT规则 v2.0<a name="nat_api_0034"></a>
 
 <a name="table1351682493510"></a>
 <table><thead align="left"><tr id="row1759512463518"><th class="cellrowborder" valign="top" width="26%" id="mcps1.1.5.1.1"><p id="p3595424163511"><a name="p3595424163511"></a><a name="p3595424163511"></a>API</p>
