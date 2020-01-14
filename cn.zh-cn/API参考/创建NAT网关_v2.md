@@ -321,7 +321,7 @@ POST /v2/\{project\_id\}/nat\_gateways
             "name": "nat_001",
             "dnat_rules_limit": "200",
             "snat_rule_public_ip_limit": "20",
-            "enterprise_project_id=0aad99bc-f5f6-4f78-8404-c598d76b0ed2",
+            "enterprise_project_id"="0aad99bc-f5f6-4f78-8404-c598d76b0ed2",
             "billing_info": ""
         } 
     }
