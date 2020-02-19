@@ -1,9 +1,6 @@
 # API概览<a name="zh-cn_topic_0083011468"></a>
 
-通过使用NAT网关服务所提供的接口，您可以完整的使用NAT网关服务的所有功能。、
-
->![](public_sys-resources/icon-note.gif) **说明：**   
->API V2目前仅在“亚太-香港”区域开放。  
+通过使用NAT网关服务所提供的接口，您可以完整的使用NAT网关服务的所有功能。
 
 ## API v2<a name="section1858610519143"></a>
 
