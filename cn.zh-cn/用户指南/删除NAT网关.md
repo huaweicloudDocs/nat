@@ -1,4 +1,4 @@
-# 删除NAT网关<a name="zh-cn_topic_0086739749"></a>
+# 删除NAT网关<a name="nat_nat_0002"></a>
 
 ## 操作场景<a name="section58826712111213"></a>
 

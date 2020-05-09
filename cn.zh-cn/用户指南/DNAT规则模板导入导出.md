@@ -1,4 +1,4 @@
-# DNAT规则模板导入导出<a name="zh-cn_topic_0088819071"></a>
+# DNAT规则模板导入导出<a name="nat_dnat_0005"></a>
 
 ## 操作场景<a name="zh-cn_topic_0127293986_section1272311025717"></a>
 

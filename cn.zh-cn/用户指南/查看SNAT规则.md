@@ -1,4 +1,4 @@
-# 查看SNAT规则<a name="zh-cn_topic_0127489525"></a>
+# 查看SNAT规则<a name="nat_snat_0001"></a>
 
 ## 操作场景<a name="section5439700611149"></a>
 

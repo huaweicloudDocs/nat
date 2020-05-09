@@ -4,7 +4,7 @@
 
 NAT网关创建后，通过添加DNAT规则，则可以通过映射方式将您VPC内的云主机对互联网提供服务。
 
-一个云主机绑定一条DNAT规则，如果您有多个云主机需要为互联网提供服务，则需要创建多条DNAT规则。
+一个云主机的一个端口对应一条DNAT规则，如果您有多个云主机需要为互联网提供服务，则需要创建多条DNAT规则。
 
 ## 操作前提<a name="zh-cn_topic_0127293986_section36544171152448"></a>
 
@@ -39,7 +39,7 @@ NAT网关创建后，通过添加DNAT规则，则可以通过映射方式将您V
     <tbody><tr id="zh-cn_topic_0127293986_row20452749101411"><td class="cellrowborder" valign="top" width="23.189999999999998%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0127293986_p930811171516"><a name="zh-cn_topic_0127293986_p930811171516"></a><a name="zh-cn_topic_0127293986_p930811171516"></a>使用场景</p>
     </td>
     <td class="cellrowborder" valign="top" width="76.81%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0127293986_p82551491578"><a name="zh-cn_topic_0127293986_p82551491578"></a><a name="zh-cn_topic_0127293986_p82551491578"></a>虚拟私有云表示虚拟私有云中的云主机将通过DNAT的方式共享弹性公网IP，为公网提供服务。</p>
-    <p id="p191738561313"><a name="p191738561313"></a><a name="p191738561313"></a>云专线表示通过云专线或VPN方式接入虚拟私有云的本地数据中心中的服务器，将通过DNAT的方式访问公网。</p>
+    <p id="p191738561313"><a name="p191738561313"></a><a name="p191738561313"></a>云专线/云连接表示通过云专线或VPN方式接入虚拟私有云的本地数据中心中的服务器，将通过DNAT的方式访问公网。</p>
     </td>
     </tr>
     <tr id="zh-cn_topic_0127293986_row1895714384610"><td class="cellrowborder" valign="top" width="23.189999999999998%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0127293986_p11008481568"><a name="zh-cn_topic_0127293986_p11008481568"></a><a name="zh-cn_topic_0127293986_p11008481568"></a>端口类型</p>

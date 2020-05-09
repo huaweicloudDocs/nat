@@ -1,6 +1,6 @@
-# NAT网关自定义策略<a name="zh-cn_topic_201905305"></a>
+# NAT网关自定义策略<a name="nat_permission_0003"></a>
 
-如果系统预置的NAT网关权限，不满足您的授权要求，可以创建自定义策略。自定义策略中可以添加的授权项（Action）请参考[策略及授权项说明](https://support.huaweicloud.com/api-natgateway/zh-cn_topic_2019053012.html)。
+如果系统预置的NAT网关权限，不满足您的授权要求，可以创建自定义策略。自定义策略中可以添加的授权项（Action）请参考[策略及授权项说明](https://support.huaweicloud.com/api-natgateway/nat_api_0063.html)。
 
 目前华为云支持以下两种方式创建自定义策略：
 
@@ -33,7 +33,7 @@
 
     拒绝策略需要同时配合其他策略使用，否则没有实际作用。用户被授予的策略中，一个授权项的作用如果同时存在Allow和Deny，则遵循Deny优先。
 
-    如果您给用户授予NAT Admin的系统策略，但不希望用户拥有NAT Admin中定义的删除NAT网关权限，您可以创建一条拒绝删除NAT网关的策略，然后同时将NAT Admin和拒绝策略授予用户，根据Deny优先原则，则用户可以对NAT网关执行除了删除NAT网关外的所有操作。拒绝策略示例如下：
+    如果您给用户授予NAT FullAccess的系统策略，但不希望用户拥有NAT FullAccess中定义的删除NAT网关权限，您可以创建一条拒绝删除NAT网关的策略，然后同时将NAT FullAccess和拒绝策略授予用户，根据Deny优先原则，则用户可以对NAT网关执行除了删除NAT网关外的所有操作。拒绝策略示例如下：
 
     ```
     { 

@@ -1,4 +1,4 @@
-# 修改DNAT规则<a name="zh-cn_topic_0088819069"></a>
+# 修改DNAT规则<a name="nat_dnat_0002"></a>
 
 ## 操作场景<a name="section44788855152716"></a>
 

@@ -1,4 +1,4 @@
-# 删除DNAT规则<a name="zh-cn_topic_0105855483"></a>
+# 删除DNAT规则<a name="nat_dnat_0003"></a>
 
 ## 操作场景<a name="section44788855152716"></a>
 
@@ -16,5 +16,9 @@ NAT网关下存在成功添加的DNAT规则。
 4.  在NAT网关页面，单击目标NAT网关的名称。
 5.  系统跳转至目标NAT网关详情页面，单击“DNAT规则”页签。
 6.  在DNAT规则列表中，单击目标DNAT规则操作列中的“删除”。
+
+    **图 1**  删除DNAT规则<a name="fig173281519"></a>  
+    ![](figures/删除DNAT规则.png "删除DNAT规则")
+
 7.  在弹出的对话框中单击“是”，完成DNAT规则的删除。
 

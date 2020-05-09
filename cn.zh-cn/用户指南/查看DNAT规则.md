@@ -1,4 +1,4 @@
-# 查看DNAT规则<a name="zh-cn_topic_0127489527"></a>
+# 查看DNAT规则<a name="nat_dnat_0001"></a>
 
 ## 操作场景<a name="section5439700611149"></a>
 

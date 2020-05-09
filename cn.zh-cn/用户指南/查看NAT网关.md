@@ -1,4 +1,4 @@
-# 查看NAT网关<a name="zh-cn_topic_0127489523"></a>
+# 查看NAT网关<a name="nat_nat_0001"></a>
 
 ## 操作场景<a name="section5439700611149"></a>
 
