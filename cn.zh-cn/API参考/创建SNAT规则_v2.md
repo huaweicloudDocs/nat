@@ -93,7 +93,7 @@ POST /v2/\{project\_id\}/snat\_rules
 </td>
 <td class="cellrowborder" valign="top" width="12.9%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797293_p9522830441"><a name="zh-cn_topic_0168797293_p9522830441"></a><a name="zh-cn_topic_0168797293_p9522830441"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="55.879999999999995%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797293_p115223302049"><a name="zh-cn_topic_0168797293_p115223302049"></a><a name="zh-cn_topic_0168797293_p115223302049"></a>规则使用的网络id。请参考<a href="https://support.huaweicloud.com/api-vpc/zh-cn_topic_0060495801.html" target="_blank" rel="noopener noreferrer">查询网络列表</a>。与cidr参数二选一。</p>
+<td class="cellrowborder" valign="top" width="55.879999999999995%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797293_p115223302049"><a name="zh-cn_topic_0168797293_p115223302049"></a><a name="zh-cn_topic_0168797293_p115223302049"></a>规则使用的网络id。请参考<a href="https://support.huaweicloud.com/api-vpc/vpc_network_0001.html" target="_blank" rel="noopener noreferrer">查询网络列表</a>。与cidr参数二选一。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0168797293_row237617432112"><td class="cellrowborder" valign="top" width="22.57%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0168797293_p56167320519"><a name="zh-cn_topic_0168797293_p56167320519"></a><a name="zh-cn_topic_0168797293_p56167320519"></a>cidr</p>
@@ -127,7 +127,7 @@ POST /v2/\{project\_id\}/snat\_rules
 <td class="cellrowborder" valign="top" width="55.879999999999995%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797293_p03765431213"><a name="zh-cn_topic_0168797293_p03765431213"></a><a name="zh-cn_topic_0168797293_p03765431213"></a>功能说明：弹性公网IP的id，多个弹性公网IP使用逗号分隔。</p>
 <p id="zh-cn_topic_0168797293_p123761343915"><a name="zh-cn_topic_0168797293_p123761343915"></a><a name="zh-cn_topic_0168797293_p123761343915"></a>取值范围：最大长度4096字节。</p>
 <p id="zh-cn_topic_0168797293_p103761343515"><a name="zh-cn_topic_0168797293_p103761343515"></a><a name="zh-cn_topic_0168797293_p103761343515"></a>约束：弹性公网IP的id个数不能超过20个。</p>
-<p id="zh-cn_topic_0168797293_p1337614318111"><a name="zh-cn_topic_0168797293_p1337614318111"></a><a name="zh-cn_topic_0168797293_p1337614318111"></a>获取弹性公网IP的id的方法请参考<a href="https://support.huaweicloud.com/api-vpc/zh-cn_topic_0020090598.html" target="_blank" rel="noopener noreferrer">查询弹性公网IP列表</a>。</p>
+<p id="zh-cn_topic_0168797293_p1337614318111"><a name="zh-cn_topic_0168797293_p1337614318111"></a><a name="zh-cn_topic_0168797293_p1337614318111"></a>获取弹性公网IP的id的方法请参考<a href="https://support.huaweicloud.com/api-eip/eip_api_0003.html" target="_blank" rel="noopener noreferrer">查询弹性公网IP列表</a>。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0168797293_row537613431120"><td class="cellrowborder" valign="top" width="22.57%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0168797293_p83761431715"><a name="zh-cn_topic_0168797293_p83761431715"></a><a name="zh-cn_topic_0168797293_p83761431715"></a>description</p>

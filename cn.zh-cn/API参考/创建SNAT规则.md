@@ -102,7 +102,7 @@ POST /v2.0/snat\_rules
 <td class="cellrowborder" valign="top" width="55.879999999999995%" headers="mcps1.2.5.1.4 "><p id="p03765431213"><a name="p03765431213"></a><a name="p03765431213"></a>功能说明：弹性公网IP的id，多个弹性公网IP使用逗号分隔。</p>
 <p id="p123761343915"><a name="p123761343915"></a><a name="p123761343915"></a>取值范围：最大长度4096字节。</p>
 <p id="p103761343515"><a name="p103761343515"></a><a name="p103761343515"></a>约束：弹性公网IP的id个数不能超过20个。</p>
-<p id="p1337614318111"><a name="p1337614318111"></a><a name="p1337614318111"></a>获取弹性公网IP的id的方法请参考<a href="https://support.huaweicloud.com/api-vpc/zh-cn_topic_0020090598.html" target="_blank" rel="noopener noreferrer">查询弹性公网IP列表</a>。</p>
+<p id="p1337614318111"><a name="p1337614318111"></a><a name="p1337614318111"></a>获取弹性公网IP的id的方法请参考<a href="https://support.huaweicloud.com/api-eip/eip_api_0003.html" target="_blank" rel="noopener noreferrer">查询弹性公网IP列表</a>。</p>
 </td>
 </tr>
 </tbody>

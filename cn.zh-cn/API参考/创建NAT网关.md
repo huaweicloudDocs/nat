@@ -1,4 +1,4 @@
-# 创建NAT网关<a name="zh-cn_topic_0130808161"></a>
+# 创建NAT网关<a name="nat_api_0061"></a>
 
 ## 功能介绍<a name="section19627306"></a>
 
@@ -95,7 +95,7 @@ POST /v2.0/nat\_gateways
 </td>
 <td class="cellrowborder" valign="top" width="18.77%" headers="mcps1.2.5.1.3 "><p id="p19519152720308"><a name="p19519152720308"></a><a name="p19519152720308"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50.06%" headers="mcps1.2.5.1.4 "><p id="p151972713301"><a name="p151972713301"></a><a name="p151972713301"></a>VPC的id。获取 router_id 的方法请参考<a href="https://support.huaweicloud.com/api-vpc/zh-cn_topic_0075677492.html" target="_blank" rel="noopener noreferrer">查询VPC路由列表</a>下的vpc_id。</p>
+<td class="cellrowborder" valign="top" width="50.06%" headers="mcps1.2.5.1.4 "><p id="p151972713301"><a name="p151972713301"></a><a name="p151972713301"></a>VPC的id。获取 router_id 的方法请参考<a href="https://support.huaweicloud.com/api-vpc/vpc_route_0001.html" target="_blank" rel="noopener noreferrer">查询VPC路由列表</a>下的vpc_id。</p>
 </td>
 </tr>
 <tr id="row10519172753011"><td class="cellrowborder" valign="top" width="22.939999999999998%" headers="mcps1.2.5.1.1 "><p id="p45191127163011"><a name="p45191127163011"></a><a name="p45191127163011"></a>internal_network_id</p>
@@ -104,7 +104,7 @@ POST /v2.0/nat\_gateways
 </td>
 <td class="cellrowborder" valign="top" width="18.77%" headers="mcps1.2.5.1.3 "><p id="p85191527133017"><a name="p85191527133017"></a><a name="p85191527133017"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50.06%" headers="mcps1.2.5.1.4 "><p id="p1034195216414"><a name="p1034195216414"></a><a name="p1034195216414"></a>NAT网关下行口（DVR的下一跳）所属的network id。获取 network id 的方法请参考<a href="https://support.huaweicloud.com/api-vpc/zh-cn_topic_0020090592.html" target="_blank" rel="noopener noreferrer">查询子网列表</a>下的neutron_network_id。</p>
+<td class="cellrowborder" valign="top" width="50.06%" headers="mcps1.2.5.1.4 "><p id="p1034195216414"><a name="p1034195216414"></a><a name="p1034195216414"></a>NAT网关下行口（DVR的下一跳）所属的network id。获取 network id 的方法请参考<a href="https://support.huaweicloud.com/api-vpc/vpc_subnet01_0003.html" target="_blank" rel="noopener noreferrer">查询子网列表</a>下的neutron_network_id。</p>
 </td>
 </tr>
 </tbody>

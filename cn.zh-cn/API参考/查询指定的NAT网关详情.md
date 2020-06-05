@@ -1,4 +1,4 @@
-# 查询指定的NAT网关详情<a name="zh-cn_topic_0130808154"></a>
+# 查询指定的NAT网关详情<a name="nat_api_0062"></a>
 
 ## 功能介绍<a name="section45827181"></a>
 

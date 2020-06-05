@@ -102,7 +102,7 @@ PUT /v2/\{project\_id\}/snat\_rules/\{snat\_rule\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="14.04%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797262_p93581475612"><a name="zh-cn_topic_0168797262_p93581475612"></a><a name="zh-cn_topic_0168797262_p93581475612"></a>String(1024)</p>
 </td>
-<td class="cellrowborder" valign="top" width="54.98%" headers="mcps1.2.5.1.4 "><a name="zh-cn_topic_0168797262_ul1935812471663"></a><a name="zh-cn_topic_0168797262_ul1935812471663"></a><ul id="zh-cn_topic_0168797262_ul1935812471663"><li>功能说明：弹性公网IP，多个弹性公网IP使用逗号分隔。</li><li>取值范围：最大长度1024字节。</li><li>约束：弹性公网IP个数不能超过20个</li><li>获取弹性公网IP地址的方法请参考<a href="https://support.huaweicloud.com/api-vpc/zh-cn_topic_0020090598.html" target="_blank" rel="noopener noreferrer">查询弹性公网IP列表</a>。</li></ul>
+<td class="cellrowborder" valign="top" width="54.98%" headers="mcps1.2.5.1.4 "><a name="zh-cn_topic_0168797262_ul1935812471663"></a><a name="zh-cn_topic_0168797262_ul1935812471663"></a><ul id="zh-cn_topic_0168797262_ul1935812471663"><li>功能说明：弹性公网IP，多个弹性公网IP使用逗号分隔。</li><li>取值范围：最大长度1024字节。</li><li>约束：弹性公网IP个数不能超过20个</li><li>获取弹性公网IP地址的方法请参考<a href="https://support.huaweicloud.com/api-eip/eip_api_0003.html" target="_blank" rel="noopener noreferrer">查询弹性公网IP列表</a>。</li></ul>
 </td>
 </tr>
 <tr id="zh-cn_topic_0168797262_row83582471861"><td class="cellrowborder" valign="top" width="22.67%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0168797262_p193581847161"><a name="zh-cn_topic_0168797262_p193581847161"></a><a name="zh-cn_topic_0168797262_p193581847161"></a>description</p>

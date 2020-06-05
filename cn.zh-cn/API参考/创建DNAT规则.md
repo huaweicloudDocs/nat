@@ -69,7 +69,7 @@ POST /v2.0/dnat\_rules
 <td class="cellrowborder" valign="top" width="17.02%" headers="mcps1.2.5.1.3 "><p id="p540414431823"><a name="p540414431823"></a><a name="p540414431823"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="49.769999999999996%" headers="mcps1.2.5.1.4 "><p id="p86078310224"><a name="p86078310224"></a><a name="p86078310224"></a>虚拟机或者裸机的Port ID，与private_ip参数二选一。</p>
-<p id="p13404243429"><a name="p13404243429"></a><a name="p13404243429"></a>获取虚拟机Port ID的方法请参考<a href="https://support.huaweicloud.com/api-ecs/zh-cn_topic_0077845908.html" target="_blank" rel="noopener noreferrer">查询云服务器网卡信息</a>，获取裸机Port ID的方法请参考<a href="https://support.huaweicloud.com/api-bms/zh-cn_topic_0053158696.html" target="_blank" rel="noopener noreferrer">查询裸金属服务器IP地址</a>。</p>
+<p id="p13404243429"><a name="p13404243429"></a><a name="p13404243429"></a>获取虚拟机Port ID的方法请参考<a href="https://support.huaweicloud.com/api-ecs/zh-cn_topic_0077845908.html" target="_blank" rel="noopener noreferrer">查询云服务器网卡信息</a>，获取裸机Port ID的方法请参考<a href="https://support.huaweicloud.com/api-bms/bms_api_0723.html" target="_blank" rel="noopener noreferrer">查询裸金属服务器IP地址</a>。</p>
 </td>
 </tr>
 <tr id="row14041643528"><td class="cellrowborder" valign="top" width="20.919999999999998%" headers="mcps1.2.5.1.1 "><p id="p740415432025"><a name="p740415432025"></a><a name="p740415432025"></a>private_ip</p>
@@ -97,7 +97,7 @@ POST /v2.0/dnat\_rules
 </td>
 <td class="cellrowborder" valign="top" width="17.02%" headers="mcps1.2.5.1.3 "><p id="p240484314213"><a name="p240484314213"></a><a name="p240484314213"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="49.769999999999996%" headers="mcps1.2.5.1.4 "><p id="p1404343021"><a name="p1404343021"></a><a name="p1404343021"></a>弹性公网IP的id。获取弹性公网IP的id的方法请参考<a href="https://support.huaweicloud.com/api-vpc/zh-cn_topic_0020090598.html" target="_blank" rel="noopener noreferrer">查询弹性公网IP列表</a>。</p>
+<td class="cellrowborder" valign="top" width="49.769999999999996%" headers="mcps1.2.5.1.4 "><p id="p1404343021"><a name="p1404343021"></a><a name="p1404343021"></a>弹性公网IP的id。获取弹性公网IP的id的方法请参考<a href="https://support.huaweicloud.com/api-eip/eip_api_0003.html" target="_blank" rel="noopener noreferrer">查询弹性公网IP列表</a>。</p>
 </td>
 </tr>
 <tr id="row74041243421"><td class="cellrowborder" valign="top" width="20.919999999999998%" headers="mcps1.2.5.1.1 "><p id="p1440444312219"><a name="p1440444312219"></a><a name="p1440444312219"></a>external_service_port</p>

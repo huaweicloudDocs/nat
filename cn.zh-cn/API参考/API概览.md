@@ -1,4 +1,4 @@
-# API概览<a name="zh-cn_topic_0083011468"></a>
+# API概览<a name="nat_api_0052"></a>
 
 通过使用NAT网关服务所提供的接口，您可以完整的使用NAT网关服务的所有功能。
 

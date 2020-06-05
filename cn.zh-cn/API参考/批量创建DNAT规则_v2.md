@@ -93,7 +93,7 @@ POST /v2/\{project\_id\}/dnat\_rules/batch
 </td>
 <td class="cellrowborder" valign="top" width="12.9%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797283_p381144234413"><a name="zh-cn_topic_0168797283_p381144234413"></a><a name="zh-cn_topic_0168797283_p381144234413"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="55.879999999999995%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797283_p18811194244414"><a name="zh-cn_topic_0168797283_p18811194244414"></a><a name="zh-cn_topic_0168797283_p18811194244414"></a>虚拟机或者裸机的Port ID，与private_ip参数二选一。获取虚拟机Port ID的方法请参考<a href="https://support.huaweicloud.com/api-ecs/zh-cn_topic_0077845908.html" target="_blank" rel="noopener noreferrer">查询云服务器网卡信息</a>，获取裸机Port ID的方法请参考<a href="https://support.huaweicloud.com/api-bms/zh-cn_topic_0053158696.html" target="_blank" rel="noopener noreferrer">查询裸金属服务器IP地址</a>。</p>
+<td class="cellrowborder" valign="top" width="55.879999999999995%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797283_p18811194244414"><a name="zh-cn_topic_0168797283_p18811194244414"></a><a name="zh-cn_topic_0168797283_p18811194244414"></a>虚拟机或者裸机的Port ID，与private_ip参数二选一。获取虚拟机Port ID的方法请参考<a href="https://support.huaweicloud.com/api-ecs/zh-cn_topic_0077845908.html" target="_blank" rel="noopener noreferrer">查询云服务器网卡信息</a>，获取裸机Port ID的方法请参考<a href="https://support.huaweicloud.com/api-bms/bms_api_0723.html" target="_blank" rel="noopener noreferrer">查询裸金属服务器IP地址</a>。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0168797283_row1981117422449"><td class="cellrowborder" valign="top" width="22.57%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0168797283_p981104217448"><a name="zh-cn_topic_0168797283_p981104217448"></a><a name="zh-cn_topic_0168797283_p981104217448"></a>private_ip</p>
@@ -120,7 +120,7 @@ POST /v2/\{project\_id\}/dnat\_rules/batch
 </td>
 <td class="cellrowborder" valign="top" width="12.9%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797283_p1481174210441"><a name="zh-cn_topic_0168797283_p1481174210441"></a><a name="zh-cn_topic_0168797283_p1481174210441"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="55.879999999999995%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797283_p5811542194410"><a name="zh-cn_topic_0168797283_p5811542194410"></a><a name="zh-cn_topic_0168797283_p5811542194410"></a>弹性公网IP的id。获取弹性公网IP的id的方法请参考<a href="https://support.huaweicloud.com/api-vpc/zh-cn_topic_0020090598.html" target="_blank" rel="noopener noreferrer">查询弹性公网IP列表</a>。</p>
+<td class="cellrowborder" valign="top" width="55.879999999999995%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797283_p5811542194410"><a name="zh-cn_topic_0168797283_p5811542194410"></a><a name="zh-cn_topic_0168797283_p5811542194410"></a>弹性公网IP的id。获取弹性公网IP的id的方法请参考<a href="https://support.huaweicloud.com/api-eip/eip_api_0003.html" target="_blank" rel="noopener noreferrer">查询弹性公网IP列表</a>。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0168797283_row1281118429443"><td class="cellrowborder" valign="top" width="22.57%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0168797283_p78111442184410"><a name="zh-cn_topic_0168797283_p78111442184410"></a><a name="zh-cn_topic_0168797283_p78111442184410"></a>external_service_port</p>

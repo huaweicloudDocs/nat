@@ -57,9 +57,9 @@ PUT /v2/\{project\_id\}/dnat\_rules/\{dnat\_rule\_id\}
 </th>
 <th class="cellrowborder" valign="top" width="8.129999999999999%" id="mcps1.2.5.1.2"><p id="zh-cn_topic_0168797296_p137604569485"><a name="zh-cn_topic_0168797296_p137604569485"></a><a name="zh-cn_topic_0168797296_p137604569485"></a>是否必选</p>
 </th>
-<th class="cellrowborder" valign="top" width="17.349999999999998%" id="mcps1.2.5.1.3"><p id="zh-cn_topic_0168797296_p14760145613485"><a name="zh-cn_topic_0168797296_p14760145613485"></a><a name="zh-cn_topic_0168797296_p14760145613485"></a>参数类型</p>
+<th class="cellrowborder" valign="top" width="17.24%" id="mcps1.2.5.1.3"><p id="zh-cn_topic_0168797296_p14760145613485"><a name="zh-cn_topic_0168797296_p14760145613485"></a><a name="zh-cn_topic_0168797296_p14760145613485"></a>参数类型</p>
 </th>
-<th class="cellrowborder" valign="top" width="53.1%" id="mcps1.2.5.1.4"><p id="zh-cn_topic_0168797296_p77601656164810"><a name="zh-cn_topic_0168797296_p77601656164810"></a><a name="zh-cn_topic_0168797296_p77601656164810"></a>描述</p>
+<th class="cellrowborder" valign="top" width="53.21%" id="mcps1.2.5.1.4"><p id="zh-cn_topic_0168797296_p77601656164810"><a name="zh-cn_topic_0168797296_p77601656164810"></a><a name="zh-cn_topic_0168797296_p77601656164810"></a>描述</p>
 </th>
 </tr>
 </thead>
@@ -67,63 +67,63 @@ PUT /v2/\{project\_id\}/dnat\_rules/\{dnat\_rule\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="8.129999999999999%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0168797296_p16760155617489"><a name="zh-cn_topic_0168797296_p16760155617489"></a><a name="zh-cn_topic_0168797296_p16760155617489"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="17.349999999999998%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p4760125619487"><a name="zh-cn_topic_0168797296_p4760125619487"></a><a name="zh-cn_topic_0168797296_p4760125619487"></a>String</p>
+<td class="cellrowborder" valign="top" width="17.24%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p4760125619487"><a name="zh-cn_topic_0168797296_p4760125619487"></a><a name="zh-cn_topic_0168797296_p4760125619487"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="53.1%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p147601356104811"><a name="zh-cn_topic_0168797296_p147601356104811"></a><a name="zh-cn_topic_0168797296_p147601356104811"></a>NAT网关的id。</p>
+<td class="cellrowborder" valign="top" width="53.21%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p147601356104811"><a name="zh-cn_topic_0168797296_p147601356104811"></a><a name="zh-cn_topic_0168797296_p147601356104811"></a>NAT网关的id。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0168797296_row17760156194817"><td class="cellrowborder" valign="top" width="21.42%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0168797296_p6760356184815"><a name="zh-cn_topic_0168797296_p6760356184815"></a><a name="zh-cn_topic_0168797296_p6760356184815"></a>port_id</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.129999999999999%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0168797296_p17604568488"><a name="zh-cn_topic_0168797296_p17604568488"></a><a name="zh-cn_topic_0168797296_p17604568488"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="17.349999999999998%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p15760155664812"><a name="zh-cn_topic_0168797296_p15760155664812"></a><a name="zh-cn_topic_0168797296_p15760155664812"></a>String</p>
+<td class="cellrowborder" valign="top" width="17.24%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p15760155664812"><a name="zh-cn_topic_0168797296_p15760155664812"></a><a name="zh-cn_topic_0168797296_p15760155664812"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="53.1%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p147601856124819"><a name="zh-cn_topic_0168797296_p147601856124819"></a><a name="zh-cn_topic_0168797296_p147601856124819"></a>虚拟机或者裸机的Port ID，与private_ip参数二选一。获取虚拟机Port ID的方法请参考<a href="https://support.huaweicloud.com/api-ecs/zh-cn_topic_0077845908.html" target="_blank" rel="noopener noreferrer">查询云服务器网卡信息</a>，获取裸机Port ID的方法请参考<a href="https://support.huaweicloud.com/api-bms/zh-cn_topic_0053158696.html" target="_blank" rel="noopener noreferrer">查询裸金属服务器IP地址</a>。</p>
+<td class="cellrowborder" valign="top" width="53.21%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p147601856124819"><a name="zh-cn_topic_0168797296_p147601856124819"></a><a name="zh-cn_topic_0168797296_p147601856124819"></a>虚拟机或者裸机的Port ID，与private_ip参数二选一。获取虚拟机Port ID的方法请参考<a href="https://support.huaweicloud.com/api-ecs/zh-cn_topic_0077845908.html" target="_blank" rel="noopener noreferrer">查询云服务器网卡信息</a>，获取裸机Port ID的方法请参考<a href="https://support.huaweicloud.com/api-bms/bms_api_0723.html" target="_blank" rel="noopener noreferrer">查询裸金属服务器IP地址</a>。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0168797296_row1876095674814"><td class="cellrowborder" valign="top" width="21.42%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0168797296_p137601256104816"><a name="zh-cn_topic_0168797296_p137601256104816"></a><a name="zh-cn_topic_0168797296_p137601256104816"></a>private_ip</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.129999999999999%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0168797296_p15760185612487"><a name="zh-cn_topic_0168797296_p15760185612487"></a><a name="zh-cn_topic_0168797296_p15760185612487"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="17.349999999999998%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p10760956114819"><a name="zh-cn_topic_0168797296_p10760956114819"></a><a name="zh-cn_topic_0168797296_p10760956114819"></a>String</p>
+<td class="cellrowborder" valign="top" width="17.24%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p10760956114819"><a name="zh-cn_topic_0168797296_p10760956114819"></a><a name="zh-cn_topic_0168797296_p10760956114819"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="53.1%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p3760205684818"><a name="zh-cn_topic_0168797296_p3760205684818"></a><a name="zh-cn_topic_0168797296_p3760205684818"></a>用户私有IP地址，例如专线连接的私有云地址，与port_id参数二选一。</p>
+<td class="cellrowborder" valign="top" width="53.21%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p3760205684818"><a name="zh-cn_topic_0168797296_p3760205684818"></a><a name="zh-cn_topic_0168797296_p3760205684818"></a>用户私有IP地址，例如专线连接的私有云地址，与port_id参数二选一。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0168797296_row5760356174818"><td class="cellrowborder" valign="top" width="21.42%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0168797296_p1076095654810"><a name="zh-cn_topic_0168797296_p1076095654810"></a><a name="zh-cn_topic_0168797296_p1076095654810"></a>internal_service_port</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.129999999999999%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0168797296_p137601056174819"><a name="zh-cn_topic_0168797296_p137601056174819"></a><a name="zh-cn_topic_0168797296_p137601056174819"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="17.349999999999998%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p17601156174813"><a name="zh-cn_topic_0168797296_p17601156174813"></a><a name="zh-cn_topic_0168797296_p17601156174813"></a>Integer</p>
+<td class="cellrowborder" valign="top" width="17.24%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p17601156174813"><a name="zh-cn_topic_0168797296_p17601156174813"></a><a name="zh-cn_topic_0168797296_p17601156174813"></a>Integer</p>
 </td>
-<td class="cellrowborder" valign="top" width="53.1%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p276016569489"><a name="zh-cn_topic_0168797296_p276016569489"></a><a name="zh-cn_topic_0168797296_p276016569489"></a>虚拟机或者裸机对外提供服务的协议端口号。</p>
+<td class="cellrowborder" valign="top" width="53.21%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p276016569489"><a name="zh-cn_topic_0168797296_p276016569489"></a><a name="zh-cn_topic_0168797296_p276016569489"></a>虚拟机或者裸机对外提供服务的协议端口号。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0168797296_row276010562486"><td class="cellrowborder" valign="top" width="21.42%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0168797296_p6760135610482"><a name="zh-cn_topic_0168797296_p6760135610482"></a><a name="zh-cn_topic_0168797296_p6760135610482"></a>floating_ip_id</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.129999999999999%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0168797296_p12760175610487"><a name="zh-cn_topic_0168797296_p12760175610487"></a><a name="zh-cn_topic_0168797296_p12760175610487"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="17.349999999999998%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p976075611489"><a name="zh-cn_topic_0168797296_p976075611489"></a><a name="zh-cn_topic_0168797296_p976075611489"></a>String</p>
+<td class="cellrowborder" valign="top" width="17.24%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p976075611489"><a name="zh-cn_topic_0168797296_p976075611489"></a><a name="zh-cn_topic_0168797296_p976075611489"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="53.1%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p1276085617489"><a name="zh-cn_topic_0168797296_p1276085617489"></a><a name="zh-cn_topic_0168797296_p1276085617489"></a>弹性公网IP的id。获取弹性公网IP的id的方法请参考<a href="https://support.huaweicloud.com/api-vpc/zh-cn_topic_0020090598.html" target="_blank" rel="noopener noreferrer">查询弹性公网IP列表</a>。</p>
+<td class="cellrowborder" valign="top" width="53.21%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p1276085617489"><a name="zh-cn_topic_0168797296_p1276085617489"></a><a name="zh-cn_topic_0168797296_p1276085617489"></a>弹性公网IP的id。获取弹性公网IP的id的方法请参考<a href="https://support.huaweicloud.com/api-eip/eip_api_0003.html" target="_blank" rel="noopener noreferrer">查询弹性公网IP列表</a>。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0168797296_row876045614484"><td class="cellrowborder" valign="top" width="21.42%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0168797296_p576015674811"><a name="zh-cn_topic_0168797296_p576015674811"></a><a name="zh-cn_topic_0168797296_p576015674811"></a>external_service_port</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.129999999999999%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0168797296_p12760165664819"><a name="zh-cn_topic_0168797296_p12760165664819"></a><a name="zh-cn_topic_0168797296_p12760165664819"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="17.349999999999998%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p57601156174819"><a name="zh-cn_topic_0168797296_p57601156174819"></a><a name="zh-cn_topic_0168797296_p57601156174819"></a>Integer</p>
+<td class="cellrowborder" valign="top" width="17.24%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p57601156174819"><a name="zh-cn_topic_0168797296_p57601156174819"></a><a name="zh-cn_topic_0168797296_p57601156174819"></a>Integer</p>
 </td>
-<td class="cellrowborder" valign="top" width="53.1%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p20760195634819"><a name="zh-cn_topic_0168797296_p20760195634819"></a><a name="zh-cn_topic_0168797296_p20760195634819"></a>Floatingip对外提供服务的端口号。</p>
+<td class="cellrowborder" valign="top" width="53.21%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p20760195634819"><a name="zh-cn_topic_0168797296_p20760195634819"></a><a name="zh-cn_topic_0168797296_p20760195634819"></a>Floatingip对外提供服务的端口号。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0168797296_row876005618487"><td class="cellrowborder" valign="top" width="21.42%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0168797296_p1076011562480"><a name="zh-cn_topic_0168797296_p1076011562480"></a><a name="zh-cn_topic_0168797296_p1076011562480"></a>protocol</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.129999999999999%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0168797296_p7760135694819"><a name="zh-cn_topic_0168797296_p7760135694819"></a><a name="zh-cn_topic_0168797296_p7760135694819"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="17.349999999999998%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p2076017563489"><a name="zh-cn_topic_0168797296_p2076017563489"></a><a name="zh-cn_topic_0168797296_p2076017563489"></a>String</p>
+<td class="cellrowborder" valign="top" width="17.24%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p2076017563489"><a name="zh-cn_topic_0168797296_p2076017563489"></a><a name="zh-cn_topic_0168797296_p2076017563489"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="53.1%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p1740415431329"><a name="zh-cn_topic_0168797296_p1740415431329"></a><a name="zh-cn_topic_0168797296_p1740415431329"></a>协议类型，目前支持TCP/tcp、UDP/udp、ANY/any。</p>
+<td class="cellrowborder" valign="top" width="53.21%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p1740415431329"><a name="zh-cn_topic_0168797296_p1740415431329"></a><a name="zh-cn_topic_0168797296_p1740415431329"></a>协议类型，目前支持TCP/tcp、UDP/udp、ANY/any。</p>
 <p id="zh-cn_topic_0168797296_p2404114317211"><a name="zh-cn_topic_0168797296_p2404114317211"></a><a name="zh-cn_topic_0168797296_p2404114317211"></a>对应协议号6、17、0。</p>
 </td>
 </tr>
@@ -131,18 +131,18 @@ PUT /v2/\{project\_id\}/dnat\_rules/\{dnat\_rule\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="8.129999999999999%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0168797296_p7760205613487"><a name="zh-cn_topic_0168797296_p7760205613487"></a><a name="zh-cn_topic_0168797296_p7760205613487"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="17.349999999999998%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p17609567487"><a name="zh-cn_topic_0168797296_p17609567487"></a><a name="zh-cn_topic_0168797296_p17609567487"></a>String(255)</p>
+<td class="cellrowborder" valign="top" width="17.24%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p17609567487"><a name="zh-cn_topic_0168797296_p17609567487"></a><a name="zh-cn_topic_0168797296_p17609567487"></a>String(255)</p>
 </td>
-<td class="cellrowborder" valign="top" width="53.1%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p17603564485"><a name="zh-cn_topic_0168797296_p17603564485"></a><a name="zh-cn_topic_0168797296_p17603564485"></a>DNAT规则的描述。</p>
+<td class="cellrowborder" valign="top" width="53.21%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p17603564485"><a name="zh-cn_topic_0168797296_p17603564485"></a><a name="zh-cn_topic_0168797296_p17603564485"></a>DNAT规则的描述。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0168797296_row467214384414"><td class="cellrowborder" valign="top" width="21.42%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0168797296_p56908391342"><a name="zh-cn_topic_0168797296_p56908391342"></a><a name="zh-cn_topic_0168797296_p56908391342"></a>internal_service_port_range</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.129999999999999%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0168797296_p1069018391941"><a name="zh-cn_topic_0168797296_p1069018391941"></a><a name="zh-cn_topic_0168797296_p1069018391941"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="17.349999999999998%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p86905391247"><a name="zh-cn_topic_0168797296_p86905391247"></a><a name="zh-cn_topic_0168797296_p86905391247"></a>String</p>
+<td class="cellrowborder" valign="top" width="17.24%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p86905391247"><a name="zh-cn_topic_0168797296_p86905391247"></a><a name="zh-cn_topic_0168797296_p86905391247"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="53.1%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p66905399411"><a name="zh-cn_topic_0168797296_p66905399411"></a><a name="zh-cn_topic_0168797296_p66905399411"></a>虚拟机或者裸机对外提供服务的协议端口号范围。</p>
+<td class="cellrowborder" valign="top" width="53.21%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p66905399411"><a name="zh-cn_topic_0168797296_p66905399411"></a><a name="zh-cn_topic_0168797296_p66905399411"></a>虚拟机或者裸机对外提供服务的协议端口号范围。</p>
 <a name="zh-cn_topic_0168797296_ul146901039349"></a><a name="zh-cn_topic_0168797296_ul146901039349"></a><ul id="zh-cn_topic_0168797296_ul146901039349"><li>功能说明：该端口范围与external _service_port_range按顺序实现1:1映射。</li><li>取值范围：1~65535。</li><li>约束：只能以’-’字符连接端口范围。</li></ul>
 </td>
 </tr>
@@ -150,9 +150,9 @@ PUT /v2/\{project\_id\}/dnat\_rules/\{dnat\_rule\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="8.129999999999999%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0168797296_p96916396410"><a name="zh-cn_topic_0168797296_p96916396410"></a><a name="zh-cn_topic_0168797296_p96916396410"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="17.349999999999998%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p13691113913410"><a name="zh-cn_topic_0168797296_p13691113913410"></a><a name="zh-cn_topic_0168797296_p13691113913410"></a>String</p>
+<td class="cellrowborder" valign="top" width="17.24%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0168797296_p13691113913410"><a name="zh-cn_topic_0168797296_p13691113913410"></a><a name="zh-cn_topic_0168797296_p13691113913410"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="53.1%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p46911139643"><a name="zh-cn_topic_0168797296_p46911139643"></a><a name="zh-cn_topic_0168797296_p46911139643"></a>Floatingip对外提供服务的端口号范围。</p>
+<td class="cellrowborder" valign="top" width="53.21%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0168797296_p46911139643"><a name="zh-cn_topic_0168797296_p46911139643"></a><a name="zh-cn_topic_0168797296_p46911139643"></a>Floatingip对外提供服务的端口号范围。</p>
 <a name="zh-cn_topic_0168797296_ul969163913418"></a><a name="zh-cn_topic_0168797296_ul969163913418"></a><ul id="zh-cn_topic_0168797296_ul969163913418"><li>功能说明：该端口范围与internal _service_port_range按顺序实现1:1映射。</li><li>取值范围：1~65535。</li><li>约束：只能以’-’字符连接端口范围。</li></ul>
 </td>
 </tr>
