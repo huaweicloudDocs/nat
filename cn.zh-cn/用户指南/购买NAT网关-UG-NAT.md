@@ -7,7 +7,7 @@
 ## 前提条件<a name="zh-cn_topic_0201532882_section1825861973713"></a>
 
 -   购买NAT网关必须指定NAT网关所在VPC、子网、NAT网关规格。
--   确认VPC下没有默认路由。
+-   确认VPC下没有默认路由。（“华北-北京四”无此限制）
 
 ## 操作步骤<a name="zh-cn_topic_0201532882_section82633199366"></a>
 
@@ -47,7 +47,7 @@
     </tr>
     <tr id="zh-cn_topic_0201532882_row27553870195751"><td class="cellrowborder" valign="top" width="31.740000000000002%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0201532882_p1464780019588"><a name="zh-cn_topic_0201532882_p1464780019588"></a><a name="zh-cn_topic_0201532882_p1464780019588"></a>虚拟私有云</p>
     </td>
-    <td class="cellrowborder" valign="top" width="68.26%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0201532882_p4562116519588"><a name="zh-cn_topic_0201532882_p4562116519588"></a><a name="zh-cn_topic_0201532882_p4562116519588"></a>NAT网关所属的VPC。只能选择没有被其他NAT网关使用和没有默认路由的VPC。</p>
+    <td class="cellrowborder" valign="top" width="68.26%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0201532882_p4562116519588"><a name="zh-cn_topic_0201532882_p4562116519588"></a><a name="zh-cn_topic_0201532882_p4562116519588"></a>NAT网关所属的VPC。只能选择没有被其他NAT网关使用和没有默认路由的VPC（“华北-北京四”无此限制）。</p>
     </td>
     </tr>
     <tr id="zh-cn_topic_0201532882_row47407746195751"><td class="cellrowborder" valign="top" width="31.740000000000002%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0201532882_p17196519588"><a name="zh-cn_topic_0201532882_p17196519588"></a><a name="zh-cn_topic_0201532882_p17196519588"></a>子网</p>
@@ -70,6 +70,11 @@
     <tr id="zh-cn_topic_0201532882_row2219225792544"><td class="cellrowborder" valign="top" width="31.740000000000002%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0201532882_p5274235692544"><a name="zh-cn_topic_0201532882_p5274235692544"></a><a name="zh-cn_topic_0201532882_p5274235692544"></a>描述</p>
     </td>
     <td class="cellrowborder" valign="top" width="68.26%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0201532882_p4427248192544"><a name="zh-cn_topic_0201532882_p4427248192544"></a><a name="zh-cn_topic_0201532882_p4427248192544"></a>NAT网关信息描述。最大支持255个字符。</p>
+    </td>
+    </tr>
+    <tr id="zh-cn_topic_0201532882_row105571852134014"><td class="cellrowborder" valign="top" width="31.740000000000002%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0201532882_p1955835204015"><a name="zh-cn_topic_0201532882_p1955835204015"></a><a name="zh-cn_topic_0201532882_p1955835204015"></a>购买时长</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="68.26%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0201532882_p185581652154019"><a name="zh-cn_topic_0201532882_p185581652154019"></a><a name="zh-cn_topic_0201532882_p185581652154019"></a>NAT网关购买时长。</p>
     </td>
     </tr>
     </tbody>
