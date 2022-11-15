@@ -1,207 +1,308 @@
-# 查询指定的DNAT规则详情<a name="nat_api_0013"></a>
+# 查询指定的DNAT规则详情<a name="ShowNatGatewayDnatRule"></a>
 
-## 功能介绍<a name="section242916116504"></a>
+## 功能介绍<a name="section049185432612"></a>
 
 查询指定的DNAT规则详情。
 
-## URI<a name="section55252672165026"></a>
+## 调试<a name="section1656254182619"></a>
 
-GET /v2.0/dnat\_rules/\{dnat\_rule\_id\}
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=nat&api=ShowNatGatewayDnatRule)中调试该接口。
 
-**表 1**  参数说明
+## URI<a name="section965354152612"></a>
 
-<a name="table41603310017"></a>
-<table><thead align="left"><tr id="row323012314017"><th class="cellrowborder" valign="top" width="21%" id="mcps1.2.5.1.1"><p id="p1023043508"><a name="p1023043508"></a><a name="p1023043508"></a>参数</p>
+GET /v2/\{project\_id\}/dnat\_rules/\{dnat\_rule\_id\}
+
+**表 1**  路径参数
+
+<a name="table9731254152612"></a>
+<table><thead align="left"><tr id="row271254102620"><th class="cellrowborder" valign="top" width="20%" id="mcps1.2.5.1.1"><p id="p876454152620"><a name="p876454152620"></a><a name="p876454152620"></a>参数</p>
 </th>
-<th class="cellrowborder" valign="top" width="22%" id="mcps1.2.5.1.2"><p id="p1823017318015"><a name="p1823017318015"></a><a name="p1823017318015"></a>参数类型</p>
+<th class="cellrowborder" valign="top" width="20%" id="mcps1.2.5.1.2"><p id="p177911543261"><a name="p177911543261"></a><a name="p177911543261"></a>是否必选</p>
 </th>
-<th class="cellrowborder" valign="top" width="25%" id="mcps1.2.5.1.3"><p id="p52301036011"><a name="p52301036011"></a><a name="p52301036011"></a>是否必选</p>
+<th class="cellrowborder" valign="top" width="20%" id="mcps1.2.5.1.3"><p id="p128417545261"><a name="p128417545261"></a><a name="p128417545261"></a>参数类型</p>
 </th>
-<th class="cellrowborder" valign="top" width="32%" id="mcps1.2.5.1.4"><p id="p7230330014"><a name="p7230330014"></a><a name="p7230330014"></a>描述</p>
+<th class="cellrowborder" valign="top" width="40%" id="mcps1.2.5.1.4"><p id="p13881054172618"><a name="p13881054172618"></a><a name="p13881054172618"></a>描述</p>
 </th>
 </tr>
 </thead>
-<tbody><tr id="row9230031106"><td class="cellrowborder" valign="top" width="21%" headers="mcps1.2.5.1.1 "><p id="p1823033907"><a name="p1823033907"></a><a name="p1823033907"></a>dnat_rule_id</p>
+<tbody><tr id="row972145472618"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="p129165411264"><a name="p129165411264"></a><a name="p129165411264"></a>project_id</p>
 </td>
-<td class="cellrowborder" valign="top" width="22%" headers="mcps1.2.5.1.2 "><p id="p42301335017"><a name="p42301335017"></a><a name="p42301335017"></a>String</p>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p1595115413267"><a name="p1595115413267"></a><a name="p1595115413267"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.3 "><p id="p623013311018"><a name="p623013311018"></a><a name="p623013311018"></a>是</p>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p399135422610"><a name="p399135422610"></a><a name="p399135422610"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="32%" headers="mcps1.2.5.1.4 "><p id="p5230735019"><a name="p5230735019"></a><a name="p5230735019"></a>所属DNAT规则的id。</p>
+<td class="cellrowborder" valign="top" width="40%" headers="mcps1.2.5.1.4 "><p id="p3103135419262"><a name="p3103135419262"></a><a name="p3103135419262"></a>项目的ID。</p>
+<p id="p101062054132614"><a name="p101062054132614"></a><a name="p101062054132614"></a>最小长度：<strong id="b010745416261"><a name="b010745416261"></a><a name="b010745416261"></a>1</strong></p>
+<p id="p310955412618"><a name="p310955412618"></a><a name="p310955412618"></a>最大长度：<strong id="b3110115422616"><a name="b3110115422616"></a><a name="b3110115422616"></a>36</strong></p>
+<p id="p2562026131319"><a name="p2562026131319"></a><a name="p2562026131319"></a>获取方法详见<a href="获取项目ID.md">获取项目ID</a>。</p>
+</td>
+</tr>
+<tr id="row8728548265"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="p13112554152617"><a name="p13112554152617"></a><a name="p13112554152617"></a>dnat_rule_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p41167548267"><a name="p41167548267"></a><a name="p41167548267"></a>是</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p911945412266"><a name="p911945412266"></a><a name="p911945412266"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="40%" headers="mcps1.2.5.1.4 "><p id="p1312305472620"><a name="p1312305472620"></a><a name="p1312305472620"></a>DNAT规则的ID。</p>
+<p id="p181261854182618"><a name="p181261854182618"></a><a name="p181261854182618"></a>长度：<strong id="b9128165419263"><a name="b9128165419263"></a><a name="b9128165419263"></a>36</strong></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## 请求消息<a name="section30445355165052"></a>
+## 请求参数<a name="section19133125432614"></a>
 
-无
+**表 2**  请求Header参数
 
-## 响应消息<a name="section1412948816517"></a>
-
-响应参数如[表2](#table66411570165117)所示。
-
-**表 2**  响应参数
-
-<a name="table66411570165117"></a>
-<table><thead align="left"><tr id="row43436947165117"><th class="cellrowborder" valign="top" width="20.75%" id="mcps1.2.4.1.1"><p id="p28731843165117"><a name="p28731843165117"></a><a name="p28731843165117"></a>参数</p>
+<a name="zh-cn_topic_0297140335_HeaderParameter"></a>
+<table><thead align="left"><tr id="row1138554102617"><th class="cellrowborder" valign="top" width="20%" id="mcps1.2.5.1.1"><p id="p614315547262"><a name="p614315547262"></a><a name="p614315547262"></a>参数</p>
 </th>
-<th class="cellrowborder" valign="top" width="21.88%" id="mcps1.2.4.1.2"><p id="p45577964165117"><a name="p45577964165117"></a><a name="p45577964165117"></a>参数类型</p>
+<th class="cellrowborder" valign="top" width="20%" id="mcps1.2.5.1.2"><p id="p151469542261"><a name="p151469542261"></a><a name="p151469542261"></a>是否必选</p>
 </th>
-<th class="cellrowborder" valign="top" width="57.37%" id="mcps1.2.4.1.3"><p id="p67033414165117"><a name="p67033414165117"></a><a name="p67033414165117"></a>描述</p>
+<th class="cellrowborder" valign="top" width="20%" id="mcps1.2.5.1.3"><p id="p161498548264"><a name="p161498548264"></a><a name="p161498548264"></a>参数类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="40%" id="mcps1.2.5.1.4"><p id="p16152175402615"><a name="p16152175402615"></a><a name="p16152175402615"></a>描述</p>
 </th>
 </tr>
 </thead>
-<tbody><tr id="row60997448165117"><td class="cellrowborder" valign="top" width="20.75%" headers="mcps1.2.4.1.1 "><p id="p41846242165117"><a name="p41846242165117"></a><a name="p41846242165117"></a>dnat_rule</p>
+<tbody><tr id="row171383548264"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="p1115616540265"><a name="p1115616540265"></a><a name="p1115616540265"></a>X-Auth-Token</p>
 </td>
-<td class="cellrowborder" valign="top" width="21.88%" headers="mcps1.2.4.1.2 "><p id="p34102461165117"><a name="p34102461165117"></a><a name="p34102461165117"></a>Object</p>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p416125412618"><a name="p416125412618"></a><a name="p416125412618"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="57.37%" headers="mcps1.2.4.1.3 "><p id="p5298260165117"><a name="p5298260165117"></a><a name="p5298260165117"></a>dnat_rule对象。详见<a href="#table9899152414719">表3</a>。</p>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p61647547268"><a name="p61647547268"></a><a name="p61647547268"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="40%" headers="mcps1.2.5.1.4 "><p id="p416895411264"><a name="p416895411264"></a><a name="p416895411264"></a>用户Token。用户Token也就是调用获取用户Token获取请求认证接口的响应值，该接口是唯一不需要认证的接口。请求响应成功后在响应消息头中包含的“X-Subject-Token”的值即为Token值。</p>
+<p id="p16171185411265"><a name="p16171185411265"></a><a name="p16171185411265"></a>最小长度：<strong id="b1917365472613"><a name="b1917365472613"></a><a name="b1917365472613"></a>1</strong></p>
+<p id="p18175254112619"><a name="p18175254112619"></a><a name="p18175254112619"></a>最大长度：<strong id="b161781554112613"><a name="b161781554112613"></a><a name="b161781554112613"></a>10240</strong></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-**表 3**  dnat\_rule字段说明
+## 响应参数<a name="section17182454112615"></a>
 
-<a name="table9899152414719"></a>
-<table><thead align="left"><tr id="row198997241973"><th class="cellrowborder" valign="top" width="20.312031203120313%" id="mcps1.2.4.1.1"><p id="p3368163219712"><a name="p3368163219712"></a><a name="p3368163219712"></a>参数</p>
+**状态码： 200**
+
+**表 3**  响应Body参数
+
+<a name="zh-cn_topic_0297140335_responseParameter"></a>
+<table><thead align="left"><tr id="row13189135417261"><th class="cellrowborder" valign="top" width="20%" id="mcps1.2.4.1.1"><p id="p141931054112612"><a name="p141931054112612"></a><a name="p141931054112612"></a>参数</p>
 </th>
-<th class="cellrowborder" valign="top" width="22.58225822582258%" id="mcps1.2.4.1.2"><p id="p23681832770"><a name="p23681832770"></a><a name="p23681832770"></a>参数类型</p>
+<th class="cellrowborder" valign="top" width="20%" id="mcps1.2.4.1.2"><p id="p219635417268"><a name="p219635417268"></a><a name="p219635417268"></a>参数类型</p>
 </th>
-<th class="cellrowborder" valign="top" width="57.1057105710571%" id="mcps1.2.4.1.3"><p id="p23681432671"><a name="p23681432671"></a><a name="p23681432671"></a>描述</p>
+<th class="cellrowborder" valign="top" width="60%" id="mcps1.2.4.1.3"><p id="p01991554122615"><a name="p01991554122615"></a><a name="p01991554122615"></a>描述</p>
 </th>
 </tr>
 </thead>
-<tbody><tr id="row88993241676"><td class="cellrowborder" valign="top" width="20.312031203120313%" headers="mcps1.2.4.1.1 "><p id="p1136816321074"><a name="p1136816321074"></a><a name="p1136816321074"></a>id</p>
+<tbody><tr id="row71891554112617"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p1520245422615"><a name="p1520245422615"></a><a name="p1520245422615"></a>dnat_rule</p>
 </td>
-<td class="cellrowborder" valign="top" width="22.58225822582258%" headers="mcps1.2.4.1.2 "><p id="p1236803212715"><a name="p1236803212715"></a><a name="p1236803212715"></a>String</p>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p1320820543264"><a name="p1320820543264"></a><a name="p1320820543264"></a><a href="#zh-cn_topic_0297140335_response_NatGatewayDnatRuleResponseBody">NatGatewayDnatRuleResponseBody</a> object</p>
 </td>
-<td class="cellrowborder" valign="top" width="57.1057105710571%" headers="mcps1.2.4.1.3 "><p id="p636818322071"><a name="p636818322071"></a><a name="p636818322071"></a>DNAT规则的id。</p>
-</td>
-</tr>
-<tr id="row198999241712"><td class="cellrowborder" valign="top" width="20.312031203120313%" headers="mcps1.2.4.1.1 "><p id="p15368632273"><a name="p15368632273"></a><a name="p15368632273"></a>tenant_id</p>
-</td>
-<td class="cellrowborder" valign="top" width="22.58225822582258%" headers="mcps1.2.4.1.2 "><p id="p6368132672"><a name="p6368132672"></a><a name="p6368132672"></a>String</p>
-</td>
-<td class="cellrowborder" valign="top" width="57.1057105710571%" headers="mcps1.2.4.1.3 "><p id="p4368193211713"><a name="p4368193211713"></a><a name="p4368193211713"></a>项目的ID。</p>
-</td>
-</tr>
-<tr id="row18993246715"><td class="cellrowborder" valign="top" width="20.312031203120313%" headers="mcps1.2.4.1.1 "><p id="p10368143213712"><a name="p10368143213712"></a><a name="p10368143213712"></a>nat_gateway_id</p>
-</td>
-<td class="cellrowborder" valign="top" width="22.58225822582258%" headers="mcps1.2.4.1.2 "><p id="p03681132579"><a name="p03681132579"></a><a name="p03681132579"></a>String</p>
-</td>
-<td class="cellrowborder" valign="top" width="57.1057105710571%" headers="mcps1.2.4.1.3 "><p id="p0368163220715"><a name="p0368163220715"></a><a name="p0368163220715"></a>所属NAT网关的id。</p>
-</td>
-</tr>
-<tr id="row1899924074"><td class="cellrowborder" valign="top" width="20.312031203120313%" headers="mcps1.2.4.1.1 "><p id="p0368183220715"><a name="p0368183220715"></a><a name="p0368183220715"></a>port_id</p>
-</td>
-<td class="cellrowborder" valign="top" width="22.58225822582258%" headers="mcps1.2.4.1.2 "><p id="p12368932672"><a name="p12368932672"></a><a name="p12368932672"></a>String</p>
-</td>
-<td class="cellrowborder" valign="top" width="57.1057105710571%" headers="mcps1.2.4.1.3 "><p id="p3368132676"><a name="p3368132676"></a><a name="p3368132676"></a>虚拟机或者裸机的Port ID。</p>
-</td>
-</tr>
-<tr id="row38991524672"><td class="cellrowborder" valign="top" width="20.312031203120313%" headers="mcps1.2.4.1.1 "><p id="p836823213715"><a name="p836823213715"></a><a name="p836823213715"></a>private_ip</p>
-</td>
-<td class="cellrowborder" valign="top" width="22.58225822582258%" headers="mcps1.2.4.1.2 "><p id="p1636843210716"><a name="p1636843210716"></a><a name="p1636843210716"></a>String</p>
-</td>
-<td class="cellrowborder" valign="top" width="57.1057105710571%" headers="mcps1.2.4.1.3 "><p id="p2036803210718"><a name="p2036803210718"></a><a name="p2036803210718"></a>用户私有IP地址，例如专线连接的私有云地址。</p>
-</td>
-</tr>
-<tr id="row48998241373"><td class="cellrowborder" valign="top" width="20.312031203120313%" headers="mcps1.2.4.1.1 "><p id="p936811322076"><a name="p936811322076"></a><a name="p936811322076"></a>internal_service_port</p>
-</td>
-<td class="cellrowborder" valign="top" width="22.58225822582258%" headers="mcps1.2.4.1.2 "><p id="p6368153211712"><a name="p6368153211712"></a><a name="p6368153211712"></a>Integer</p>
-</td>
-<td class="cellrowborder" valign="top" width="57.1057105710571%" headers="mcps1.2.4.1.3 "><p id="p15368123218715"><a name="p15368123218715"></a><a name="p15368123218715"></a>虚拟机或者裸机对外提供服务的协议端口号。</p>
-</td>
-</tr>
-<tr id="row1789914241878"><td class="cellrowborder" valign="top" width="20.312031203120313%" headers="mcps1.2.4.1.1 "><p id="p43681532970"><a name="p43681532970"></a><a name="p43681532970"></a>floating_ip_id</p>
-</td>
-<td class="cellrowborder" valign="top" width="22.58225822582258%" headers="mcps1.2.4.1.2 "><p id="p123684326717"><a name="p123684326717"></a><a name="p123684326717"></a>String</p>
-</td>
-<td class="cellrowborder" valign="top" width="57.1057105710571%" headers="mcps1.2.4.1.3 "><p id="p93683323710"><a name="p93683323710"></a><a name="p93683323710"></a>弹性公网IP的id。</p>
-</td>
-</tr>
-<tr id="row7899102413716"><td class="cellrowborder" valign="top" width="20.312031203120313%" headers="mcps1.2.4.1.1 "><p id="p1336843213714"><a name="p1336843213714"></a><a name="p1336843213714"></a>floating_ip_address</p>
-</td>
-<td class="cellrowborder" valign="top" width="22.58225822582258%" headers="mcps1.2.4.1.2 "><p id="p536820321572"><a name="p536820321572"></a><a name="p536820321572"></a>String</p>
-</td>
-<td class="cellrowborder" valign="top" width="57.1057105710571%" headers="mcps1.2.4.1.3 "><p id="p193681532072"><a name="p193681532072"></a><a name="p193681532072"></a>弹性公网的IP地址。</p>
-</td>
-</tr>
-<tr id="row889916241373"><td class="cellrowborder" valign="top" width="20.312031203120313%" headers="mcps1.2.4.1.1 "><p id="p73686321175"><a name="p73686321175"></a><a name="p73686321175"></a>external_service_port</p>
-</td>
-<td class="cellrowborder" valign="top" width="22.58225822582258%" headers="mcps1.2.4.1.2 "><p id="p1836813210719"><a name="p1836813210719"></a><a name="p1836813210719"></a>Integer</p>
-</td>
-<td class="cellrowborder" valign="top" width="57.1057105710571%" headers="mcps1.2.4.1.3 "><p id="p73683325711"><a name="p73683325711"></a><a name="p73683325711"></a>Floatingip对外提供服务的端口号。</p>
-</td>
-</tr>
-<tr id="row489932414710"><td class="cellrowborder" valign="top" width="20.312031203120313%" headers="mcps1.2.4.1.1 "><p id="p17368232474"><a name="p17368232474"></a><a name="p17368232474"></a>protocol</p>
-</td>
-<td class="cellrowborder" valign="top" width="22.58225822582258%" headers="mcps1.2.4.1.2 "><p id="p163683321719"><a name="p163683321719"></a><a name="p163683321719"></a>String</p>
-</td>
-<td class="cellrowborder" valign="top" width="57.1057105710571%" headers="mcps1.2.4.1.3 "><p id="p336893219716"><a name="p336893219716"></a><a name="p336893219716"></a>协议类型，目前支持TCP/UDP/ANY</p>
-<p id="p9368432271"><a name="p9368432271"></a><a name="p9368432271"></a>对应协议号6/17/0</p>
-</td>
-</tr>
-<tr id="row389917241879"><td class="cellrowborder" valign="top" width="20.312031203120313%" headers="mcps1.2.4.1.1 "><p id="p1736833215711"><a name="p1736833215711"></a><a name="p1736833215711"></a>status</p>
-</td>
-<td class="cellrowborder" valign="top" width="22.58225822582258%" headers="mcps1.2.4.1.2 "><p id="p736853214714"><a name="p736853214714"></a><a name="p736853214714"></a>String</p>
-</td>
-<td class="cellrowborder" valign="top" width="57.1057105710571%" headers="mcps1.2.4.1.3 "><a name="ul113681321476"></a><a name="ul113681321476"></a><ul id="ul113681321476"><li>功能说明：DNAT规则的状态。</li><li>取值范围：<a href="资源状态说明.md#table1390614366107">资源状态说明</a>。</li></ul>
-</td>
-</tr>
-<tr id="row1589910244715"><td class="cellrowborder" valign="top" width="20.312031203120313%" headers="mcps1.2.4.1.1 "><p id="p1836883218715"><a name="p1836883218715"></a><a name="p1836883218715"></a>admin_state_up</p>
-</td>
-<td class="cellrowborder" valign="top" width="22.58225822582258%" headers="mcps1.2.4.1.2 "><p id="p1764614265487"><a name="p1764614265487"></a><a name="p1764614265487"></a>Boolean</p>
-</td>
-<td class="cellrowborder" valign="top" width="57.1057105710571%" headers="mcps1.2.4.1.3 "><a name="ul71858556358"></a><a name="ul71858556358"></a><ul id="ul71858556358"><li>解冻/冻结状态。</li><li>取值范围：<a name="ul11838172814409"></a><a name="ul11838172814409"></a><ul id="ul11838172814409"><li>“true”：解冻</li><li>“false”：冻结</li></ul>
-</li></ul>
-</td>
-</tr>
-<tr id="row28997241277"><td class="cellrowborder" valign="top" width="20.312031203120313%" headers="mcps1.2.4.1.1 "><p id="p13368332977"><a name="p13368332977"></a><a name="p13368332977"></a>created_at</p>
-</td>
-<td class="cellrowborder" valign="top" width="22.58225822582258%" headers="mcps1.2.4.1.2 "><p id="p136853217716"><a name="p136853217716"></a><a name="p136853217716"></a>String</p>
-</td>
-<td class="cellrowborder" valign="top" width="57.1057105710571%" headers="mcps1.2.4.1.3 "><p id="p15924948201"><a name="p15924948201"></a><a name="p15924948201"></a>DNAT规则的创建时间戳，遵循UTC时间，保留小数点后6位，格式是yyyy-mm-dd hh:mm:ss</p>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p192111054152616"><a name="p192111054152616"></a><a name="p192111054152616"></a>DNAT规则的响应体。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## 示例<a name="section24779297165121"></a>
+**表 4**  NatGatewayDnatRuleResponseBody
 
--   请求样例
+<a name="zh-cn_topic_0297140335_response_NatGatewayDnatRuleResponseBody"></a>
+<table><thead align="left"><tr id="row15215254122614"><th class="cellrowborder" valign="top" width="20%" id="mcps1.2.4.1.1"><p id="p162242549269"><a name="p162242549269"></a><a name="p162242549269"></a>参数</p>
+</th>
+<th class="cellrowborder" valign="top" width="20%" id="mcps1.2.4.1.2"><p id="p422805412614"><a name="p422805412614"></a><a name="p422805412614"></a>参数类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="60%" id="mcps1.2.4.1.3"><p id="p132321354162616"><a name="p132321354162616"></a><a name="p132321354162616"></a>描述</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row1321675411264"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p152364548261"><a name="p152364548261"></a><a name="p152364548261"></a>id</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p152401854152618"><a name="p152401854152618"></a><a name="p152401854152618"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p2244145472611"><a name="p2244145472611"></a><a name="p2244145472611"></a>DNAT规则的ID。</p>
+<p id="p102471254162612"><a name="p102471254162612"></a><a name="p102471254162612"></a>长度：<strong id="b1624815414261"><a name="b1624815414261"></a><a name="b1624815414261"></a>36</strong></p>
+</td>
+</tr>
+<tr id="row6216454202615"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p825519548268"><a name="p825519548268"></a><a name="p825519548268"></a>tenant_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p9262115482620"><a name="p9262115482620"></a><a name="p9262115482620"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p526605492613"><a name="p526605492613"></a><a name="p526605492613"></a>项目的ID。</p>
+</td>
+</tr>
+<tr id="row22164547263"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p1527255418265"><a name="p1527255418265"></a><a name="p1527255418265"></a>description</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p927515452617"><a name="p927515452617"></a><a name="p927515452617"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p9279105492617"><a name="p9279105492617"></a><a name="p9279105492617"></a>DNAT规则的描述。长度限制为255。</p>
+<p id="p4282105412265"><a name="p4282105412265"></a><a name="p4282105412265"></a>最大长度：<strong id="b1028315452617"><a name="b1028315452617"></a><a name="b1028315452617"></a>255</strong></p>
+</td>
+</tr>
+<tr id="row22161954122615"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p228675452614"><a name="p228675452614"></a><a name="p228675452614"></a>port_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p19289115410263"><a name="p19289115410263"></a><a name="p19289115410263"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p1529435416267"><a name="p1529435416267"></a><a name="p1529435416267"></a>虚拟机或者裸机的Port ID，与private_ip参数二选一。</p>
+<p id="p142986544265"><a name="p142986544265"></a><a name="p142986544265"></a>长度：<strong id="b13299205482612"><a name="b13299205482612"></a><a name="b13299205482612"></a>36</strong></p>
+</td>
+</tr>
+<tr id="row15216105472611"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p53060549265"><a name="p53060549265"></a><a name="p53060549265"></a>private_ip</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p12311185492617"><a name="p12311185492617"></a><a name="p12311185492617"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p13314175432612"><a name="p13314175432612"></a><a name="p13314175432612"></a>用户私有IP地址，例如专线连接的私有云地址，与port_id参数二选一。</p>
+</td>
+</tr>
+<tr id="row1216854202612"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p1431845418268"><a name="p1431845418268"></a><a name="p1431845418268"></a>internal_service_port</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p1632115410262"><a name="p1632115410262"></a><a name="p1632115410262"></a>Integer</p>
+</td>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p63261254182614"><a name="p63261254182614"></a><a name="p63261254182614"></a>虚拟机或者裸机对外提供服务的协议端口号。取值范围：0~65535。</p>
+<p id="p1232913547268"><a name="p1232913547268"></a><a name="p1232913547268"></a>最小值：<strong id="b1533015442615"><a name="b1533015442615"></a><a name="b1533015442615"></a>0</strong></p>
+<p id="p233315492612"><a name="p233315492612"></a><a name="p233315492612"></a>最大值：<strong id="b1733565411260"><a name="b1733565411260"></a><a name="b1733565411260"></a>65535</strong></p>
+<p id="p113371154122617"><a name="p113371154122617"></a><a name="p113371154122617"></a>最小长度：<strong id="b1933916549264"><a name="b1933916549264"></a><a name="b1933916549264"></a>1</strong></p>
+<p id="p1534195419266"><a name="p1534195419266"></a><a name="p1534195419266"></a>最大长度：<strong id="b63421454132619"><a name="b63421454132619"></a><a name="b63421454132619"></a>5</strong></p>
+</td>
+</tr>
+<tr id="row1121615422615"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p11345175482615"><a name="p11345175482615"></a><a name="p11345175482615"></a>nat_gateway_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p18348254202612"><a name="p18348254202612"></a><a name="p18348254202612"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p1535316549260"><a name="p1535316549260"></a><a name="p1535316549260"></a>公网NAT网关实例的ID。</p>
+<p id="p2355165415263"><a name="p2355165415263"></a><a name="p2355165415263"></a>最小长度：<strong id="b7357145413260"><a name="b7357145413260"></a><a name="b7357145413260"></a>1</strong></p>
+<p id="p6359125422618"><a name="p6359125422618"></a><a name="p6359125422618"></a>最大长度：<strong id="b143601154142619"><a name="b143601154142619"></a><a name="b143601154142619"></a>36</strong></p>
+</td>
+</tr>
+<tr id="row20216145412614"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p5364115420267"><a name="p5364115420267"></a><a name="p5364115420267"></a>floating_ip_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p173688546260"><a name="p173688546260"></a><a name="p173688546260"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p193734543263"><a name="p193734543263"></a><a name="p193734543263"></a>弹性公网IP的id。</p>
+<p id="p133755549260"><a name="p133755549260"></a><a name="p133755549260"></a>最小长度：<strong id="b163771154152612"><a name="b163771154152612"></a><a name="b163771154152612"></a>1</strong></p>
+<p id="p1338016545268"><a name="p1338016545268"></a><a name="p1338016545268"></a>最大长度：<strong id="b4381185482616"><a name="b4381185482616"></a><a name="b4381185482616"></a>36</strong></p>
+</td>
+</tr>
+<tr id="row14216105482620"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p10384195482611"><a name="p10384195482611"></a><a name="p10384195482611"></a>floating_ip_address</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p103871543262"><a name="p103871543262"></a><a name="p103871543262"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p339075412262"><a name="p339075412262"></a><a name="p339075412262"></a>弹性公网IP的IP地址。</p>
+</td>
+</tr>
+<tr id="row621665411265"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p139625410268"><a name="p139625410268"></a><a name="p139625410268"></a>external_service_port</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p539925402611"><a name="p539925402611"></a><a name="p539925402611"></a>Integer</p>
+</td>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p540210549263"><a name="p540210549263"></a><a name="p540210549263"></a>Floatingip对外提供服务的端口号。取值范围：0~65535。</p>
+</td>
+</tr>
+<tr id="row0216185418265"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p16406354102619"><a name="p16406354102619"></a><a name="p16406354102619"></a>status</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p1941065415264"><a name="p1941065415264"></a><a name="p1941065415264"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p1041405432615"><a name="p1041405432615"></a><a name="p1041405432615"></a>功能说明：DNAT规则的状态。</p>
+<p id="p641795492612"><a name="p641795492612"></a><a name="p641795492612"></a>枚举值：</p>
+<a name="ul20422754122619"></a><a name="ul20422754122619"></a><ul id="ul20422754122619"><li><strong id="b19427954132612"><a name="b19427954132612"></a><a name="b19427954132612"></a>ACTIVE</strong></li><li><strong id="b124327549262"><a name="b124327549262"></a><a name="b124327549262"></a>PENDING_CREATE</strong></li><li><strong id="b7435115413265"><a name="b7435115413265"></a><a name="b7435115413265"></a>PENDING_UPDATE</strong></li><li><strong id="b13439135419267"><a name="b13439135419267"></a><a name="b13439135419267"></a>PENDING_DELETE</strong></li><li><strong id="b1144285422618"><a name="b1144285422618"></a><a name="b1144285422618"></a>EIP_FREEZED</strong></li><li><strong id="b144710547265"><a name="b144710547265"></a><a name="b144710547265"></a>INACTIVE</strong></li></ul>
+</td>
+</tr>
+<tr id="row1216754182610"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p114498546266"><a name="p114498546266"></a><a name="p114498546266"></a>admin_state_up</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p34541054102619"><a name="p34541054102619"></a><a name="p34541054102619"></a>Boolean</p>
+</td>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p1845915542268"><a name="p1845915542268"></a><a name="p1845915542268"></a>解冻/冻结状态。取值范围：</p>
+<a name="ul195721758266"></a><a name="ul195721758266"></a><ul id="ul195721758266"><li>"true"： 解冻</li><li>"false"： 冻结</li></ul>
+</td>
+</tr>
+<tr id="row2217135414267"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p146445420269"><a name="p146445420269"></a><a name="p146445420269"></a>internal_service_port_range</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p1046805414261"><a name="p1046805414261"></a><a name="p1046805414261"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p15472654102615"><a name="p15472654102615"></a><a name="p15472654102615"></a>虚拟机或者裸机对外提供服务的协议端口号范围。功能说明：该端口范围与external _service_port_range按顺序实现1:1映射。取值范围：1~65535。约束：只能以’-’字符连接端口范围。</p>
+</td>
+</tr>
+<tr id="row18217195417260"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p18475654172611"><a name="p18475654172611"></a><a name="p18475654172611"></a>external_service_port_range</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p848085414269"><a name="p848085414269"></a><a name="p848085414269"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p7484145411263"><a name="p7484145411263"></a><a name="p7484145411263"></a>Floatingip对外提供服务的端口号范围。功能说明：该端口范围与internal _service_port_range按顺序实现1:1映射。取值范围：1~65535。约束：只能以’-’字符连接端口范围</p>
+</td>
+</tr>
+<tr id="row15217185418266"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p1148825411265"><a name="p1148825411265"></a><a name="p1148825411265"></a>protocol</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p1549265416260"><a name="p1549265416260"></a><a name="p1549265416260"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p1749785414262"><a name="p1749785414262"></a><a name="p1749785414262"></a>协议类型，目前支持TCP/tcp、UDP/udp、ANY/any。对应协议号6、17、0。</p>
+<p id="p1350045452613"><a name="p1350045452613"></a><a name="p1350045452613"></a>最小长度：<strong id="b13501205442619"><a name="b13501205442619"></a><a name="b13501205442619"></a>1</strong></p>
+<p id="p185041854162620"><a name="p185041854162620"></a><a name="p185041854162620"></a>最大长度：<strong id="b550513545262"><a name="b550513545262"></a><a name="b550513545262"></a>3</strong></p>
+<p id="p13507165419260"><a name="p13507165419260"></a><a name="p13507165419260"></a>枚举值：</p>
+<a name="ul13511155420269"></a><a name="ul13511155420269"></a><ul id="ul13511155420269"><li><strong id="b0514105462615"><a name="b0514105462615"></a><a name="b0514105462615"></a>tcp</strong></li><li><strong id="b15173549263"><a name="b15173549263"></a><a name="b15173549263"></a>udp</strong></li><li><strong id="b19521954182611"><a name="b19521954182611"></a><a name="b19521954182611"></a>any</strong></li></ul>
+</td>
+</tr>
+<tr id="row22179549262"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p052316548267"><a name="p052316548267"></a><a name="p052316548267"></a>created_at</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p252720543263"><a name="p252720543263"></a><a name="p252720543263"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p1053395422620"><a name="p1053395422620"></a><a name="p1053395422620"></a>DNAT规则的创建时间，遵循UTC时间，格式是yyyy-mm-ddThh:mm:ssZ。</p>
+<p id="p6536155416264"><a name="p6536155416264"></a><a name="p6536155416264"></a>最小长度：<strong id="b1353795418267"><a name="b1353795418267"></a><a name="b1353795418267"></a>1</strong></p>
+<p id="p175401154142618"><a name="p175401154142618"></a><a name="p175401154142618"></a>最大长度：<strong id="b16542105412614"><a name="b16542105412614"></a><a name="b16542105412614"></a>36</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
 
-    ```
-    GET https://{Endpoint}/v2.0/dnat_rules/5b95c675-69c2-4656-ba06-58ff72e1d338
-    ```
+## 请求示例<a name="section754575413266"></a>
 
+```
+GET https://{Endpoint}/v2/d199ba7e0ba64899b2e81518104b1526d/dnat_rules/5b95c675-69c2-4656-ba06-58ff72e1d338
 
--   响应样例
+  
+```
 
-    ```
-    {              
-    　　"dnat_rule": {
-        　　"floating_ip_id": "bf99c679-9f41-4dac-8513-9c9228e713e1",
-       　　 "status": "ACTIVE",
-        　　"nat_gateway_id": "cda3a125-2406-456c-a11f-598e10578541",
-       　　 "admin_state_up": true,
-       　　 "port_id": "9a469561-daac-4c94-88f5-39366e5ea193",
-        　　"internal_service_port": 993,
-        　　"protocol": "TCP",
-        　　"tenant_id": "abc",
-        　　"created_at": "2017-11-15 15:44:42.595173",
-        　　"id": "79195d50-0271-41f1-bded-4c089b2502ff",
-        　　"floating_ip_address": "5.21.11.226",
-       　　 "external_service_port": 242
-        　　"private_ip": ""  
-       }
-    }
-    ```
+## 响应示例<a name="section256375411261"></a>
 
+**状态码： 200**
 
-## 状态码<a name="section16249219165526"></a>
+查询DNAT规则成功。
 
-请参考[状态码](状态码.md)。
+```
+{
+  "dnat_rule" : {
+    "floating_ip_id" : "bf99c679-9f41-4dac-8513-9c9228e713e1",
+    "status" : "ACTIVE",
+    "nat_gateway_id" : "cda3a125-2406-456c-a11f-598e10578541",
+    "admin_state_up" : true,
+    "port_id" : "9a469561-daac-4c94-88f5-39366e5ea193",
+    "private_ip" : "",
+    "internal_service_port" : 993,
+    "protocol" : "tcp",
+    "tenant_id" : "d199ba7e0ba64899b2e81518104b1526d",
+    "created_at" : "2017-11-15 15:44:42.595173",
+    "id" : "5b95c675-69c2-4656-ba06-58ff72e1d338",
+    "floating_ip_address" : "5.21.11.226",
+    "external_service_port" : 242,
+    "description" : "my dnat rule 01"
+  }
+}
+```
+
+## 状态码<a name="section863585442610"></a>
+
+<a name="zh-cn_topic_0297140335_status_code"></a>
+<table><thead align="left"><tr id="row11639354132620"><th class="cellrowborder" valign="top" width="15%" id="mcps1.1.3.1.1"><p id="p36421454122619"><a name="p36421454122619"></a><a name="p36421454122619"></a>状态码</p>
+</th>
+<th class="cellrowborder" valign="top" width="85%" id="mcps1.1.3.1.2"><p id="p7645754172612"><a name="p7645754172612"></a><a name="p7645754172612"></a>描述</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row126394544268"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.3.1.1 "><p id="p1764810549266"><a name="p1764810549266"></a><a name="p1764810549266"></a>200</p>
+</td>
+<td class="cellrowborder" valign="top" width="85%" headers="mcps1.1.3.1.2 "><p id="p96514542265"><a name="p96514542265"></a><a name="p96514542265"></a>查询DNAT规则成功。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+## 错误码<a name="section12655125415261"></a>
+
+请参见[错误码](错误码.md)。
 
